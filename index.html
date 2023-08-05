@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr, eng">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ubenef'</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo" id="head_logo">
+        <img src="./Logo Sites/UBENEF'.jpg" />
+      </div>
+      <ul class="create_login_btn_list">
+        <li class="create_account">
+          <button class="create_btn" id="create_account_btn">
+            <a href="#create_form" class="js-modal">S'inscrire</a>
+          </button>
+        </li>
+        <li>
+          <button class="login_btn" id="login_button">
+            <a href="#" target="_blank" class="login">Connexion</a>
+          </button>
+        </li>
+      </ul>
+      <div class="resume">
+        <hr class="tr_header" />
+        <ul class="resume_list">
+          <li>Calcul ton bénéfice.</li>
+          <li>rapidement.</li>
+          <li>facilement.</li>
+          <li>précisément.</li>
+        </ul>
+
+        <hr class="tr_header" />
+      </div>
+    </header>
+    <aside
+      id="create_form"
+      class="create_form_modal"
+      aria-hidden="true"
+      style="display: none"
+      role="dialog"
+    >
+      <h2>Inscription</h2>
+      <div class="modal_wrapper js-modal-stop">
+        <button class="js-close-modal">Fermer la page d'Inscription</button>
+        <form action="" class="form">
+          <label for="username">Nom d'utilisateur</label>
+          <br />
+          <input type="text" id="username" />
+          <br />
+          <label for="email">Adresse mail</label>
+          <br />
+          <input type="email" id="email" />
+          <br />
+          <label for="password">Mot de passe</label>
+          <br />
+          <input type="password" id="password" />
+          <br />
+          <label for="confirm-password">Confirmez le mot de passe</label>
+          <br />
+          <input type="password" id="confirm-password" />
+          <br />
+          <label for="main-town">Ville principal</label>
+          <br />
+          <input type="text" id="main-town" />
+          <br />
+          <label for="main-vehicle">Vehicule de livraison</label>
+          <br />
+          <select name="vehicle" id="main-vehicle">
+            <option value="">--Choisissez un vehicule--</option>
+            <option value="">Voiture</option>
+            <option value="">Scooter</option>
+            <option value="">Vélo</option>
+            <option value="">Trottinette</option>
+            <option value="">Gyroroue</option>
+          </select>
+          <br />
+          <label for="profil-picture">Ajoutez une photo de profil</label>
+          <br />
+          <input type="file" id="profil-picture" accept=".jpg" />
+          <br />
+          <button type="submit">Créer mon compte</button>
+        </form>
+      </div>
+    </aside>
+    <section class="info_section">
+      <div class="calcul_main_container">
+        <form action="" class="calcul_form_main">
+          <label for="price">Prix de la course</label>
+          <br />
+          <input type="number" id="price" min="0" name="price" step="0.10" />
+          <br />
+          <label for="distance_Traveled">Distance parcourue(km)</label>
+          <br />
+          <input type="number" id="distance_Traveled" min="0" />
+          <br />
+          <label for="taxes">Montant URSAFF(%)</label>
+          <br />
+          <input type="number" id="taxes" min="0" />
+          <br />
+          <label for="bonus">Bonus/Pourboires</label>
+          <br />
+          <input type="number" min="0" id="bonus" />
+          <br />
+          <input id="calcul_btn" type="submit" value="calculer mon benef'" />
+          <br />
+          <p>Ton benef'</p>
+          <div class="result_container">
+            <br />
+            <div id="result" class="result_input"></div>
+          </div>
+        </form>
+      </div>
+      <div class="ranking" id="delivery_ranking">
+        <h2>Livraisons</h2>
+        <div class="total_delivery_container">
+          <h3>Total de livraison :</h3>
+          <p id="total_delivery_number"></p>
+        </div>
+        <div>
+          <h3>Meilleur livreur :</h3>
+          <p id="best_delivery_prsn"></p>
+        </div>
+      </div>
+      <div>
+        <h2>Chiffre d'affaire</h2>
+        <div>
+          <h3>Total de CA :</h3>
+          <p id="total_turnover"></p>
+        </div>
+        <div>
+          <h3>Meilleur CA :</h3>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Réseau</a></li>
+        <li><a href="#">Conditions d'utilisations</a></li>
+      </ul>
+
+      <p>copyright</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
