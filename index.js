@@ -62,3 +62,19 @@ window.addEventListener("keydown", (e) => {
     focusInModal(e);
   }
 });
+
+//--------------------- BENEF CALCULATOR-------
+let gazPrice = 1.8;
+let maxTank = 40;
+let priceFullTank = gazPrice * maxTank;
+let distanceMax = 800;
+let priceByDistance = priceFullTank / distanceMax;
+
+let getBenefice = calcul_btn.addEventListener("click", (e) => {
+  let racePrice = document.getElementById("race_price").value;
+  let userTrip = document.getElementById("distance_traveled").value;
+  let userTripCost = priceByDistance * userTrip;
+
+  console.log(userTripCost);
+  e.preventDefault();
+});
