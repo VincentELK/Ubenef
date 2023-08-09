@@ -103,7 +103,7 @@ input {
     margin-right: 20px;
 }
 
-.create_btn, .login_btn {
+.create_btn, .login_btn, .profil_btn {
     background-color: black;
     margin-right: 20px;
     padding: 8px;

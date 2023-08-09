@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    background-color: rgba(19, 228, 50, 0.546);
+    width: 100vw;
+    height: 200px;
+    box-shadow: inset rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+
+.header-container {
+    display: flex;
+    
+}
+
+.back-arrow {
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+}
+.arrow {
+    color: aliceblue;
+    height: 40px;
+    width: 40px;
+}
+
+/*----------------------body--------------*/
+body {
+    background-color: #3EECAC;
+background-image: linear-gradient(19deg, #3EECAC 58%, #292028 100%);
+background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    
+    
+}
+
+.profil-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+.wrapper {
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    overflow: hidden;
+}
+
+.grey {
+    color: #5d5a5a;
+    
+}
+
+.profil-top {
+    height : 250px;
+    width : 500px;
+    background-size : cover;
+    position : relative;
+    background-position: center;
+    background-color: black;
+}
+
+.profil-image {
+    background-size : cover;
+    position : absolute;
+    background-position: center;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid white;
+    bottom: 0;
+    left : 50%;
+    transform: translate(-50%, 50%);
+}
+
+.profil-bottom {
+    margin-top: 75px; 
+    padding : 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+} 
+
+.main-info {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.name {
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+.bio-profil {
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.town {
+    font-size: 20px;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profil-stats-block {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+
+.stats-item:not(:last-child) {
+    border-right : 1px solid black
+}
+
+.profil-stats {
+   font-size : 20px;
+   font-weight: 700; 
+}
+
+
