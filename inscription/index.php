@@ -13,7 +13,7 @@ $user = htmlspecialchars($_POST["user"]);
 $email = htmlspecialchars($_POST["email"]);
 $password = htmlspecialchars($_POST["password"]);
 $confirmed_password = htmlspecialchars($_POST["confirmed_password"]);
-$ville = htmlspecialchars($_POST["ville_principale"]);
+$ville = htmlspecialchars($_POST["main_town"]);
 $vehicule = htmlspecialchars($_POST["vehicle"]);
 
 

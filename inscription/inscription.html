@@ -8,6 +8,11 @@
   </head>
   <body>
     <header>
+      <button class="back-arrow">
+        <a href="../index.html">
+          <ion-icon name="arrow-back-outline" class="arrow"></ion-icon>
+        </a>
+      </button>
       <div class="logo" id="head_logo">
         <img src="../Logo Sites/UBENEF'.jpg" />
       </div>
@@ -19,31 +24,35 @@
       </div>
     </header>
     <div class="form-container">
-      <form method = "post" action="index.php" class="form">
+      <form method="post" action="index.php" class="form">
         <div>
           <button class="back-home">
             <a href="../index.html">X</a>
           </button>
         </div>
-        <label for="username">Nom d'utilisateur</label> 
+        <label for="username">Nom d'utilisateur</label>
         <br />
-        <input type="text" id="username" name="user"/>
+        <input type="text" id="username" name="user" />
         <br />
         <label for="email">Adresse mail</label>
         <br />
-        <input type="email" id="email" name="email"/>
+        <input type="email" id="email" name="email" />
         <br />
         <label for="password">Mot de passe</label>
         <br />
-        <input type="password" id="password" name="password"/>
+        <input type="password" id="password" name="password" />
         <br />
         <label for="confirm-password">Confirmez le mot de passe</label>
         <br />
-        <input type="password" id="confirm-password" name="confirmed_password"/>
+        <input
+          type="password"
+          id="confirm-password"
+          name="confirmed_password"
+        />
         <br />
         <label for="main-town">Ville principale</label>
         <br />
-        <input type="text" id="main-town" name="ville_principale"/>
+        <input type="text" id="main-town" name="main_town" />
         <br />
         <label for="main-vehicle">Vehicule de livraison</label>
         <br />
@@ -59,5 +68,13 @@
         <button type="submit">Créer mon compte</button>
       </form>
     </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
