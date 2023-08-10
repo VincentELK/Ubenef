@@ -19,46 +19,42 @@
       </div>
     </header>
     <div class="form-container">
-      <form action="" class="form">
+      <form method = "post" action="index.php" class="form">
         <div>
           <button class="back-home">
             <a href="../index.html">X</a>
           </button>
         </div>
-        <label for="username">Nom d'utilisateur</label>
+        <label for="username">Nom d'utilisateur</label> 
         <br />
-        <input type="text" id="username" />
+        <input type="text" id="username" name="user"/>
         <br />
         <label for="email">Adresse mail</label>
         <br />
-        <input type="email" id="email" />
+        <input type="email" id="email" name="email"/>
         <br />
         <label for="password">Mot de passe</label>
         <br />
-        <input type="password" id="password" />
+        <input type="password" id="password" name="password"/>
         <br />
         <label for="confirm-password">Confirmez le mot de passe</label>
         <br />
-        <input type="password" id="confirm-password" />
+        <input type="password" id="confirm-password" name="confirmed_password"/>
         <br />
-        <label for="main-town">Ville principal</label>
+        <label for="main-town">Ville principale</label>
         <br />
-        <input type="text" id="main-town" />
+        <input type="text" id="main-town" name="ville_principale"/>
         <br />
         <label for="main-vehicle">Vehicule de livraison</label>
         <br />
-        <select name="vehicle" id="main-vehicle">
-          <option value="">--Choisissez un vehicule--</option>
-          <option value="">Voiture</option>
-          <option value="">Scooter</option>
-          <option value="">Vélo</option>
-          <option value="">Trottinette</option>
-          <option value="">Gyroroue</option>
+        <select id="main-vehicle" name="vehicle">
+          <option value="">> - - -Choisir une option- - - <</option>
+          <option value="voiture">Voiture</option>
+          <option value="scooter">Scooter</option>
+          <option value="velo">Vélo</option>
+          <option value="trottinette">Trottinette</option>
+          <option value="gyroroue">Gyroroue</option>
         </select>
-        <br />
-        <label for="profil-picture">Ajoutez une photo de profil</label>
-        <br />
-        <input type="file" id="profil-picture" accept=".jpg" />
         <br />
         <button type="submit">Créer mon compte</button>
       </form>
