@@ -36,24 +36,24 @@
         <div class="profil-bottom">
           <div class="profil-info">
             <div class="main-info">
-              <?php echo $name?>
+              <h3 class="name"><?php echo $name?></h3>
               <p class="vehicle-icon"></p>
             </div>
             <p class="bio-profil">BIO</p>
-            <?php echo $city?>
+            <p class="town"><?php echo $city?></p>
           </div>
 
           <div class="profil-stats-block">
             <div class="stats-item">
-              <?php echo $livr?>
+              <p class="profil-stats"><?php echo $livr?></p>
               <p class="grey">Deliveries</p>
             </div>
             <div class="stats-item">
-              <?php echo $ca?>
+              <p class="profil-stats"><?php echo $ca?></p>
               <p class="grey">Turnover</p>
             </div>
             <div class="stats-item">
-              <?php echo $dist?>
+              <p class="profil-stats"><?php echo $dist?></p>
               <p class="grey">Total distance</p>
             </div>
           </div>
