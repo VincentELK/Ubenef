@@ -1,6 +1,6 @@
-<p><a href="inscription.html">&laquo; Back to the inscription </a></p>
-
 <?php
+require '../utils/utils.php';
+init_php_session();
 
 
 $DB_DSN = "mysql:host=localhost;dbname=clients";
@@ -48,7 +48,7 @@ else
         }
         if($good=="TRUE")
         {
-            $PDO->query("INSERT INTO users VALUES ('$user', '$email', '$password', '$ville', '$vehicule')");
+            $PDO->query("INSERT INTO users VALUES ('$user', '$email', '$password', '$ville', '$vehicule',0,0,0,0)");
             echo "You are now registered";
         }
     }
@@ -58,3 +58,4 @@ else
     }
 }
 ?>
+<p><a href="../index.php">&laquo; Back to the inscription </a></p>
