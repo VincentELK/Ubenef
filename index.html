@@ -1,9 +1,3 @@
-<?php
-  require 'utils/utils.php';
-  init_php_session();
-  setcookie('Connexion','1',time()+3600*24*365);
-?>
-
 <!DOCTYPE html>
 <html lang="fr, eng">
   <head>
@@ -25,9 +19,7 @@
         </li>
         <li class="create_account">
           <button class="create_btn" id="create_account_btn">
-            <a href="./inscription/inscription.html" class="js-modal"
-              >Register</a
-            >
+            <a href="./inscription/inscription.html">Register</a>
           </button>
         </li>
         <li>
@@ -61,6 +53,10 @@
             name="price"
             step="0.10"
           />
+          <br />
+          <label for="gas_price">Gas Price</label>
+          <br />
+          <input type="number" id="gas_price" min="0" />
           <br />
           <label for="distance_traveled">Distance covered(km)</label>
           <br />
