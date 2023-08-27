@@ -1,10 +1,10 @@
 //--------------------- BENEF CALCULATOR-------
 
 let getBenefice = calcul_btn.addEventListener("click", (e) => {
-  let gazPrice = 1.8;
-  let maxTank = 40;
+  let gazPrice = 1.83;
+  let maxTank = 42;
   let priceFullTank = gazPrice * maxTank;
-  let distanceMax = 800;
+  let distanceMax = 900;
   let priceByDistance = priceFullTank / distanceMax;
 
   const taxesInput = document.getElementById("taxes").value;
