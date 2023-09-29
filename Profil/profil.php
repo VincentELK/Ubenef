@@ -9,10 +9,11 @@
   <body>
     <header>
       <div class="header-container">
-        <button class="back-arrow">
-          <a href="../index.html">
+        <button class="back-arrow" value="back" >
+          
+          
             <ion-icon name="arrow-back-outline" class="arrow"></ion-icon>
-          </a>
+          
         </button>
       </div>
     </header>

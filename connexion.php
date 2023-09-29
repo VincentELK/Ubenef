@@ -1,7 +1,4 @@
-<?php
-  require 'utils/utils.php';
-  init_php_session();
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,7 +11,7 @@
   <body>
     <header>
       <button class="back-arrow">
-        <a href="./index.html">
+        <a href="./index.php">
           <ion-icon name="arrow-back-outline" class="arrow"></ion-icon>
         </a>
       </button>

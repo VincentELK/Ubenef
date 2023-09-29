@@ -14,17 +14,17 @@
       <ul class="create_login_btn_list">
         <li>
           <button class="profil_btn">
-            <a href="./Profil/profil.html">My profile</a>
+            <a href="./Profil/profil.php">My profile</a>
           </button>
         </li>
         <li class="create_account">
           <button class="create_btn" id="create_account_btn">
-            <a href="./inscription/inscription.html">Register</a>
+            <a href="./inscription/inscription.php">Register</a>
           </button>
         </li>
         <li>
           <button class="login_btn" id="login_button">
-            <a href="./connexion.html" class="login">Login</a>
+            <a href="./connexion.php" class="login">Login</a>
           </button>
         </li>
       </ul>

@@ -9,7 +9,7 @@
   <body>
     <header>
       <button class="back-arrow">
-        <a href="../index.html">
+        <a href="../index.php">
           <ion-icon name="arrow-back-outline" class="arrow"></ion-icon>
         </a>
       </button>
@@ -27,7 +27,7 @@
       <form method="post" action="index.php" class="form">
         <div>
           <button class="back-home">
-            <a href="../index.html">X</a>
+            <a href="../index.php">X</a>
           </button>
         </div>
         <label for="username">Nom d'utilisateur</label>
