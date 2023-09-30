@@ -1,33 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr, eng">
-  <head>
-    <link rel="stylesheet" href="index.css" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ubenef'</title>
-  </head>
-  <body>
-    <header>
-      <div class="logo" id="head_logo">
-        <img src="./Logo Sites/UBENEF'.jpg" />
-      </div>
-      <ul class="create_login_btn_list">
-        <li>
-          <button class="profil_btn">
-            <a href="./Profil/profil.php">My profile</a>
-          </button>
-        </li>
-        <li class="create_account">
-          <button class="create_btn" id="create_account_btn">
-            <a href="./inscription/inscription.php">Register</a>
-          </button>
-        </li>
-        <li>
-          <button class="login_btn" id="login_button">
-            <a href="./connexion.php" class="login">Login</a>
-          </button>
-        </li>
-      </ul>
+<?php
+include 'includes/Header_Index.php';
+?>
       <div class="resume">
         <hr class="tr_header" />
         <ul class="resume_list">
@@ -113,6 +86,6 @@
         </ul>
       </div>
     </footer>
-    <script src="index.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
