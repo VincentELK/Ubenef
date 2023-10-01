@@ -1,14 +1,13 @@
 <?php
 include 'includes/Header_Index.php';
-?>
+?>    
+    
       
-
-    <section>
-      <div class="calcul_main_container">
-        <form action="" class="calcul_form_main">
+      <div class="main-container">
+        <form action="" class="calcul-form">
           <label for="race_price">Price of the fare</label>
           <br />
-          <input
+          <input class="form-input"
             type="number"
             id="race_price"
             min="0"
@@ -18,26 +17,26 @@ include 'includes/Header_Index.php';
           <br />
           <label for="gas_price">Gas Price</label>
           <br />
-          <input type="number" id="gas_price" step="0.01" min="0" />
+          <input class="form-input" type="number" id="gas_price" step="0.01" min="0" />
           <br />
           <label for="distance_traveled">Distance covered(km)</label>
           <br />
-          <input type="number" id="distance_traveled" min="0" />
+          <input class="form-input" type="number" id="distance_traveled" min="0" />
           <br />
           <label for="taxes">URSAFF/IRS/... amount(%)</label>
           <br />
-          <input type="number" id="taxes" min="0" value="22" />
+          <input class="form-input" type="number" id="taxes" min="0" value="22" />
           <br />
           <label for="bonus">Bonus/Tips</label>
           <br />
-          <input type="number" min="0" id="bonus" value="0" />
+          <input class="form-input" type="number" min="0" id="bonus" value="0" />
           <br />
           <input id="calcul_btn" type="submit" value="Calculate my profit" />
           <br />
           <p>Your profit</p>
           <div class="result_container">
             <br />
-            <div id="benefice" class="result_input"></div>
+            <div id="benefice" class="result-input"></div>
           </div>
         </form>
       </div>
@@ -65,7 +64,8 @@ include 'includes/Header_Index.php';
           </div>
         </div>
       </div>
-    </section>
+   
+    
     <footer>
       <div class="footer-div">
         <ul class="footer-li">
@@ -74,7 +74,10 @@ include 'includes/Header_Index.php';
           <li><a href="#">Copyright</a></li>
         </ul>
       </div>
+      
     </footer>
     <script src="script.js"></script>
+    
+    
   </body>
 </html>
