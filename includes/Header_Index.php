@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr, eng">
+<html lang="fr eng">
   <head>
     <link rel="stylesheet" href="/Ubenef/style.css" />
     <meta charset="UTF-8" />
@@ -8,8 +8,19 @@
   </head>
   <body>
     <header>
+      <div class="nav-container">
       <nav class="menu-nav">
       <ul>
+      <li>
+          <div class="Home_btn">
+            <a href="#">Home</a>
+            </div>
+        </li>
+        <li>
+          <div class="contact_btn">
+            <a href="#">Contact Us</a>
+            </div>
+        </li>
         <li>
           <div class="login_btn">
             <a href="#">Login</a>
@@ -20,16 +31,8 @@
             <a href="#">Create Account</a>
             </div>
         </li>
-        <li>
-          <div class="contact_btn">
-            <a href="#">Contact Us</a>
-            </div>
-        </li>
-        <li>
-          <div class="Home_btn">
-            <a href="#">Home</a>
-            </div>
-        </li>
-     
+        
+        
       </ul>
       </nav>
+      </div>

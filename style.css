@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.nav-container {
+    display: flex;
+    padding: 20px;
+    justify-content: flex-end;
+    background-color: black;
+}
+
+.menu-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu-nav li {
+    background-color: whitesmoke;
+    padding: 15px;
+}
+
+.menu-nav ul li a {
+    color: rgb(12, 11, 11);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+}
