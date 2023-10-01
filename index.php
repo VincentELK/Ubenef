@@ -1,20 +1,9 @@
 <?php
 include 'includes/Header_Index.php';
 ?>
-      <div class="resume">
-        <hr class="tr_header" />
-        <ul class="resume_list">
-          <li>Calculate your profit.</li>
-          <li>quickly.</li>
-          <li>easily.</li>
-          <li>precisely.</li>
-        </ul>
+      
 
-        <hr class="tr_header" />
-      </div>
-    </header>
-
-    <section class="info_section">
+    <section>
       <div class="calcul_main_container">
         <form action="" class="calcul_form_main">
           <label for="race_price">Price of the fare</label>

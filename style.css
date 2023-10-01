@@ -4,26 +4,54 @@
     box-sizing: border-box;
 }
 
+
+/*----------Nav Bar--------------*/
+
+
 .nav-container {
-    display: flex;
     padding: 20px;
-    justify-content: flex-end;
-    background-color: black;
+    background-color: #0e0d0d;
+    background-image: linear-gradient(62deg, #0e0d0d 0%, #73726c 50%, #645757 100%);
+
+    width: 100%;
+}
+
+
+
+h1 {
+
+    color: white;
 }
 
 .menu-nav ul {
     display: flex;
     list-style: none;
+    justify-content: flex-end;
+
 }
 
 .menu-nav li {
     background-color: whitesmoke;
     padding: 15px;
+
 }
 
-.menu-nav ul li a {
+.menu-nav li:hover {
+    transition: 0.15s;
+    background-color: #201f1f2e;
+
+}
+
+.menu-nav a:hover {
+
+    color: azure;
+}
+
+.menu-nav a {
     color: rgb(12, 11, 11);
     text-decoration: none;
     font-size: 16px;
-    padding: 10px;
+    padding: 20px;
 }
+
+/*-------------------index---------------*/

@@ -1,3 +1,7 @@
+<?php
+include 'cache_disable.php'
+?>
+
 <!DOCTYPE html>
 <html lang="fr eng">
   <head>
@@ -8,7 +12,9 @@
   </head>
   <body>
     <header>
+
       <div class="nav-container">
+      <h1 class="nav-title">Ubenef</h1>
       <nav class="menu-nav">
       <ul>
       <li>
@@ -30,9 +36,8 @@
           <div class="create_account_btn">
             <a href="#">Create Account</a>
             </div>
-        </li>
-        
-        
+        </li>    
       </ul>
       </nav>
       </div>
+   </header> 
