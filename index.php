@@ -1,5 +1,6 @@
 <?php
 include 'includes/Header_Index.php';
+include 'includes/cache_disable.php'
 ?>    
     
       
@@ -34,14 +35,14 @@ include 'includes/Header_Index.php';
           <input id="calcul_btn" type="submit" value="Calculate my profit" />
           <br />
           <p>Your profit</p>
-          <div class="result_container">
+          <div class="result-container">
             <br />
             <div id="benefice" class="result-input"></div>
           </div>
         </form>
-      </div>
-      <div class="ranking" id="delivery_ranking">
-        <div class="Deliveries_Ranking">
+
+        <div class="week-ranking" id="delivery_ranking">
+        <div class="week-deliveries-ranking">
           <h2>Week Deliveries Ranking</h2>
           <div class="total_delivery_container">
             <h3>Total of deliveries :</h3>
@@ -53,7 +54,7 @@ include 'includes/Header_Index.php';
           </div>
         </div>
 
-        <div class="Turnover_Ranking">
+        <div class="week-turnover-ranking">
           <h2>Week Turnover Ranking</h2>
           <div>
             <h3>Total of Turnover :</h3>
@@ -64,6 +65,8 @@ include 'includes/Header_Index.php';
           </div>
         </div>
       </div>
+      </div>
+
    
     
     <footer>
@@ -77,7 +80,5 @@ include 'includes/Header_Index.php';
       
     </footer>
     <script src="script.js"></script>
-    
-    
   </body>
 </html>

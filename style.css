@@ -12,8 +12,8 @@
 
 .nav-container {
     padding: 20px;
-    background-color: #0e0d0d;
-    background-image: linear-gradient(62deg, #0e0d0d 0%, #73726c 50%, #645757 100%);
+    background-color: #0e0d0d3c;
+    background-image: linear-gradient(62deg, #0e0d0d34 0%, #73726c 50%, #645757 100%);
     width: 100%;
 }
 
@@ -66,10 +66,8 @@ body {
 
 .main-container {
     display: flex;
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
-
+    justify-content: space-around;
+    padding: 20px 0px;
 }
 
 .calcul-form {
@@ -85,4 +83,28 @@ body {
     height: 25px;
     padding: 10px;
     text-align: center;
+}
+
+.result-container {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.week-ranking {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: azure;
+    padding: 20px;
+
+}
+
+.week-deliveries-ranking,
+.week-turnover-ranking {
+    padding: 20px;
+    background-color: #0e0d0d;
+    margin: 50px 0px;
 }
