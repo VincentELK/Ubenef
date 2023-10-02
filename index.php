@@ -67,8 +67,6 @@ include 'includes/cache_disable.php'
       </div>
       </div>
 
-   
-    
     <footer>
       <div class="footer-div">
         <ul class="footer-li">

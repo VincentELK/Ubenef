@@ -61,6 +61,8 @@ body {
     background-color: #29091a;
     background-image: url("assets/background-form.png");
     background-size: cover;
+    width: 100vw;
+    height: 100%;
 
 }
 
@@ -107,4 +109,14 @@ body {
     padding: 20px;
     background-color: #0e0d0d;
     margin: 50px 0px;
+}
+
+.footer-div ul {
+    bottom: 0px;
+    position: absolute;
+    background-color: rgba(240, 248, 255, 0.384);
+    display: flex;
+    padding: 30px;
+    width: 100vw;
+    justify-content: space-evenly;
 }
