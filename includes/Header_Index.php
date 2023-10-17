@@ -1,5 +1,5 @@
 <?php
-include 'cache_disable.php'
+include 'cache_disable.php';
 ?>
 
 <!DOCTYPE html>
@@ -34,7 +34,7 @@ include 'cache_disable.php'
         </li>
         <li>
           <div class="create_account_btn">
-            <a href="#">Create Account</a>
+            <a href="./inscription.php">Create Account</a>
             </div>
         </li>    
       </ul>

@@ -77,7 +77,7 @@ body {
 }
 
 .calcul-form {
-
+    max-height: 500px;
     padding: 20px;
     align-items: center;
     text-align: center;
@@ -86,9 +86,11 @@ body {
 
 .form-input {
     display: flex;
-    height: 25px;
+    height: 30px;
     padding: 10px;
     text-align: center;
+    border-radius: 20px;
+
 }
 
 .result-container {
