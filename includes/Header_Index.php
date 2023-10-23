@@ -19,7 +19,7 @@ include 'cache_disable.php';
       <ul>
       <li>
           <div class="Home_btn">
-            <a href="#">Home</a>
+            <a href="./index.php">Home</a>
             </div>
         </li>
         <li>

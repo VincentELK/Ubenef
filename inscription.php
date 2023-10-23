@@ -22,26 +22,31 @@ include 'includes/cache_disable.php';
             <br>
             <input type="password" id="confirm-password" name="confirm-password">
             <br>
-            <fieldset style="width: 20%;">
+            <label for="area">Enter your delivery's area</label>
+            <br>
+            <input type="text" required id="area">
+            <br>
+            <fieldset class="register-fieldset">
                 <legend>Select a vehicle</legend>
                 <div>
-                <input type="radio" id="bicycle" name="Bicycle" value="bicycle">
+                <input type="radio" id="bicycle" name="vehicle" value="bicycle">
                 <label for="bicycle">Bicycle</label>
                 </div>
                 <div>
-                <input type="radio" id="cars" name="Cars" value="cars">
+                <input type="radio" id="cars" name="vehicle" value="cars">
                 <label for="cars">Cars</label>
                 </div>
                 <div>
-                <input type="radio" id="motorcycle" name="Motorcycle" value="motorcycle">
+                <input type="radio" id="motorcycle" name="vehicle" value="motorcycle">
                 <label for="motorcycle">Motorcycle</label>
                 </div>
                 <div>
-                <input type="radio" id="electric-scooter" name="Electric-Scooter" value="electric-scooter">
-                <label for="bicycle">Electric-Scooter</label>
+                <input type="radio" id="electric-scooter" name="vehicle" value="electric-scooter">
+                <label for="electric-scooter">Electric-Scooter</label>
                 </div>
             </fieldset>
-            
+            <br>
+            <input type="button" action="" value="Register">
         </form>
     </div>
     <div class="uber-link-container">
