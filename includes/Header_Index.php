@@ -6,6 +6,7 @@ include 'cache_disable.php';
 <html lang="fr eng">
   <head>
     <link rel="stylesheet" href="/Ubenef/style.css" />
+     <link rel="manifest" href="manifest.json"/>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ubenef'</title>

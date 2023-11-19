@@ -46,7 +46,7 @@ include 'includes/cache_disable.php';
                 </div>
             </fieldset>
             <br>
-            <input type="button" action="" value="Register">
+            <input class="register-btn"type="button" action="" value="Register">
         </form>
     </div>
     <div class="uber-link-container">

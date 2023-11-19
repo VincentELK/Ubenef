@@ -26,7 +26,7 @@ include 'includes/cache_disable.php';
           <br />
           <label for="taxes">URSAFF/IRS/... amount(%)</label>
           <br />
-          <input class="form-input" type="number" id="taxes" min="0" value="22" />
+          <input class="form-input" type="number" id="taxes" step="0.01" min="0" value="21.20" />
           <br />
           <label for="bonus">Bonus/Tips</label>
           <br />
