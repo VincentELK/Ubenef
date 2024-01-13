@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr eng">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ubenef'</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+        <h1 class="nav-title">Ubenef</h1>
+        <nav class="menu-nav">
+          <ul>
+            <li>
+              <div class="Home_btn">
+                <a href="./index.html">Home</a>
+              </div>
+            </li>
+            <li>
+              <div class="contact_btn">
+                <a href="#">Contact Us</a>
+              </div>
+            </li>
+            <li>
+              <div class="login_btn">
+                <a href="#">Login</a>
+              </div>
+            </li>
+            <li>
+              <div class="create_account_btn">
+                <a href="./inscription.html">Create Account</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="register-container">
+      <div class="register-form-container">
+        <form action="">
+          <label for="username">Username : </label>
+          <br />
+          <input type="text" id="username" name="username" required />
+          <br />
+          <label for="email">Your email</label>
+          <br />
+          <input type="email" id="email" name="email" required />
+          <br />
+          <label for="password">Your Password</label>
+          <br />
+          <input type="password" id="password" name="password" required />
+          <br />
+          <label for="confirm-password">Confirm your password</label>
+          <br />
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm-password"
+          />
+          <br />
+          <label for="area">Enter your delivery's area</label>
+          <br />
+          <input type="text" required id="area" />
+          <br />
+          <fieldset class="register-fieldset">
+            <legend>Select a vehicle</legend>
+            <div>
+              <input type="radio" id="bicycle" name="vehicle" value="bicycle" />
+              <label for="bicycle">Bicycle</label>
+            </div>
+            <div>
+              <input type="radio" id="cars" name="vehicle" value="cars" />
+              <label for="cars">Cars</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="motorcycle"
+                name="vehicle"
+                value="motorcycle"
+              />
+              <label for="motorcycle">Motorcycle</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="electric-scooter"
+                name="vehicle"
+                value="electric-scooter"
+              />
+              <label for="electric-scooter">Electric-Scooter</label>
+            </div>
+          </fieldset>
+          <br />
+          <input
+            class="register-btn"
+            type="button"
+            action=""
+            value="Register"
+          />
+        </form>
+      </div>
+      <div class="uber-link-container"></div>
+    </div>
+  </body>
+</html>

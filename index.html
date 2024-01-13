@@ -1,0 +1,130 @@
+<?php
+include 'includes/Header_Index.php';
+include 'includes/cache_disable.php';
+?>
+
+<!DOCTYPE html>
+<html lang="fr eng">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ubenef'</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+        <h1 class="nav-title">Ubenef</h1>
+        <nav class="menu-nav">
+          <ul>
+            <li>
+              <div class="Home_btn">
+                <a href="./index.html">Home</a>
+              </div>
+            </li>
+            <li>
+              <div class="contact_btn">
+                <a href="#">Contact Us</a>
+              </div>
+            </li>
+            <li>
+              <div class="login_btn">
+                <a href="#">Login</a>
+              </div>
+            </li>
+            <li>
+              <div class="create_account_btn">
+                <a href="./inscription.html">Create Account</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="main-container">
+      <form action="" class="calcul-form">
+        <label for="race_price">Price of the fare</label>
+        <br />
+        <input
+          class="form-input"
+          type="number"
+          id="race_price"
+          min="0"
+          name="price"
+          step="0.10"
+        />
+        <br />
+        <label for="gas_price">Gas Price</label>
+        <br />
+        <input
+          class="form-input"
+          type="number"
+          id="gas_price"
+          step="0.01"
+          min="0"
+        />
+        <br />
+        <label for="distance_traveled">Distance covered(km)</label>
+        <br />
+        <input
+          class="form-input"
+          type="number"
+          id="distance_traveled"
+          min="0"
+        />
+        <br />
+        <label for="taxes">URSAFF/IRS/... amount(%)</label>
+        <br />
+        <input
+          class="form-input"
+          type="number"
+          id="taxes"
+          step="0.01"
+          min="0"
+          value="21.20"
+        />
+        <br />
+        <label for="bonus">Bonus/Tips</label>
+        <br />
+        <input class="form-input" type="number" min="0" id="bonus" value="0" />
+        <br />
+        <input id="calcul_btn" type="submit" value="Calculate my profit" />
+        <br />
+        <p>Your profit</p>
+        <div class="result-container">
+          <br />
+          <div id="benefice" class="result-input"></div>
+        </div>
+      </form>
+
+      <div class="week-ranking" id="delivery_ranking">
+        <div class="week-deliveries-ranking">
+          <h2>Week Deliveries Ranking</h2>
+          <div class="total_delivery_container">
+            <h3>Total of deliveries :</h3>
+            <p id="total_delivery_number"></p>
+          </div>
+          <div>
+            <h3>Best delivrer :</h3>
+            <p id="best_delivery_prsn"></p>
+          </div>
+        </div>
+
+        <div class="week-turnover-ranking">
+          <h2>Week Turnover Ranking</h2>
+          <div>
+            <h3>Total of Turnover :</h3>
+            <p id="total_turnover"></p>
+          </div>
+          <div>
+            <h3>Best Turnover :</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <
+    <script src="script.js"></script>
+  </body>
+</html>
