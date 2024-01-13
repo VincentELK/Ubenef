@@ -22,3 +22,12 @@ let getBenefice = calcul_btn.addEventListener("click", (e) => {
 
   e.preventDefault();
 });
+
+// -------------Create account---------
+
+const createAccountBtn = document.querySelector(".create_account_btn");
+const registerContainer = document.querySelector(".register-form-container");
+
+createAccountBtn.addEventListener("click", () => {
+  registerContainer.classList.toggle("hidding");
+});
