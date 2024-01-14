@@ -18,7 +18,7 @@
   height: 100vh;
   background-color: black;
   padding: 15px;
-  padding-left: 30px;
+  padding-left: 3%;
   padding-top: 30px;
 }
 .nav-logo-container {
@@ -30,12 +30,41 @@
   max-width: 40px;
 }
 .nav-btn svg {
+  padding: 5px;
+  border-radius: 10px;
+  transition: 300ms;
   fill: white;
+}
+.nav-btn svg:hover {
+  transition: 300ms;
+  background-color: white;
+  fill: black;
+}
+.nav-btn svg:active {
+  transform: scale(0.9);
+}
+
+.nav-btn-none {
+  display: none;
+}
+.nav-btn-block {
+  display: block;
+}
+.nav-btn-open {
+  min-width: 36px;
+  max-height: 36px;
 }
 
 .nav-title {
   cursor: pointer;
   max-width: 110px;
+}
+.nav-title {
+  color: #06c167;
+}
+
+.nav-title span.white-title {
+  color: white;
 }
 
 .li-container {
@@ -44,6 +73,7 @@
   border-radius: 15px;
   padding: 10px 10px;
   margin: 20px 0;
+  max-height: 39.02px;
 }
 
 .li-container:hover {
@@ -55,14 +85,6 @@
 .li-container:active {
   transition: 100ms;
   transform: scale(0.95);
-}
-
-.nav-title {
-  color: #06c167;
-}
-
-.nav-title span.white-title {
-  color: white;
 }
 
 .menu-nav ul {
@@ -89,13 +111,37 @@
   font-size: 16px;
   padding: 20px;
 }
+.menu-nav li svg {
+  fill: white;
+}
+.menu-nav li svg:hover {
+  background-color: white;
+}
+
+.log-nav {
+  padding-top: 160px;
+}
+.create-account:hover {
+  background-color: rgb(6, 193, 103);
+}
+.li-container a {
+  padding: auto;
+}
+.li-container svg {
+  display: none;
+  transition: 300ms;
+}
+.li-container:hover svg {
+  transition: 300ms;
+  fill: black;
+}
 
 /*-------------------index---------------*/
 body {
   display: flex;
   flex-direction: column;
-  background-color: #29091a;
-  background-image: url("assets/background-form.png");
+  background-color: white;
+
   background-size: cover;
   width: 100vw;
   height: 100vh;
