@@ -30,3 +30,12 @@ const nav_btn = document.getElementById("nav-btn");
 nav_btn.addEventListener("click", () => {
   console.log("test");
 });
+
+// -------------Create account---------
+
+const createAccountBtn = document.querySelector(".create_account_btn");
+const registerContainer = document.querySelector(".register-form-container");
+
+createAccountBtn.addEventListener("click", () => {
+  registerContainer.classList.toggle("hidding");
+});
