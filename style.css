@@ -1,192 +1,79 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+@font-face {
+  font-family: uber;
+  src: url(./assets/UberMoveMedium.otf);
 }
-
-
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: uber;
+}
 
 /*----------Nav Bar--------------*/
-
-
 .nav-container {
-    padding: 20px;
-    background-color: #0e0d0d3c;
-    background-image: linear-gradient(62deg, #0e0d0d34 0%, #73726c 50%, #645757 100%);
-    width: 100%;
+  width: 20%;
+  height: 100vh;
+  background-color: black;
+  padding: 15px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.nav-logo-container {
+  display: flex;
+}
+.nav-btn {
+  cursor: pointer;
+  padding-left: 25%;
+  max-width: 40px;
+}
+.nav-btn svg {
+  fill: white;
 }
 
-h1 {
+.nav-title {
+  cursor: pointer;
+  max-width: 110px;
+}
 
-    color: white;
+.li-container {
+  cursor: pointer;
+  transition: 300ms;
+  border-radius: 15px;
+  padding: 10px 10px;
+  margin: 20px 0;
+}
+
+.li-container:hover {
+  background-color: white;
+}
+.li-container:hover a {
+  color: black;
+}
+.li-container:active {
+  transition: 100ms;
+  transform: scale(0.95);
+}
+
+.nav-title {
+  color: #06c167;
+}
+
+.nav-title span.white-title {
+  color: white;
 }
 
 .menu-nav ul {
-    display: flex;
-    list-style: none;
-    justify-content: flex-end;
-
+  padding: 20px;
+  padding-top: 100px;
+  padding-left: 5px;
 }
-
 .menu-nav li {
-    background-color: whitesmoke;
-    padding: 15px;
-
+  padding-left: 10px;
 }
 
-.menu-nav li:hover {
-    transition: 0.15s;
-    background-color: #201f1f2e;
-
-}
-
-.menu-nav a:hover {
-
-    color: azure;
-}
-
-.menu-nav a {
-    color: rgb(12, 11, 11);
-    text-decoration: none;
-    font-size: 16px;
-    padding: 20px;
-}
-
-/*-------------------index---------------*/
-body {
-    display: flex;
-    flex-direction: column;
-    background-color: #29091a;
-    background-image: url("assets/background-form.png");
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-
-}
-
-.main-container {
-    flex: 1 0 auto;
-    display: flex;
-    justify-content: space-around;
-    padding: 20px 0px;
-}
-
-.calcul-form {
-    max-height: 500px;
-    padding: 20px;
-    align-items: center;
-    text-align: center;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 700;
-    border-radius: 20px;
-
-}
-
-.form-input {
-    display: flex;
-    height: 30px;
-    padding: 10px;
-    text-align: center;
-    border-radius: 20px;
-
-}
-
-.result-container {
-    background-color: white;
-    border-radius: 20px;
-    padding: 20px;
-    margin: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #0e0d0d;
-
-}
-
-@media screen and (max-width: 500px) {
-
-    .main-container {
-        width: 100%;
-        justify-content: center;
-        display: block;
-    }
-
-    .form-input {
-        display: flex;
-        height: 30px;
-
-        padding: 10px;
-        text-align: center;
-        border-radius: 20px;
-        justify-content: center;
-        align-items: center;
-
-    }
-}
-
-
-.week-ranking {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: azure;
-    padding: 20px;
-
-}
-
-.week-deliveries-ranking,
-.week-turnover-ranking {
-    padding: 20px;
-    background-color: #0e0d0d;
-    margin: 50px 0px;
-}
-
-footer {
-    flex-shrink: 0;
-    border-top: 1px solid white;
-    width: 100%;
-}
-
-.footer-div ul {
-    bottom: 0;
-
-    background-color: rgba(240, 248, 255, 0.384);
-    display: flex;
-    padding: 30px;
-    width: 100vw;
-    justify-content: space-evenly;
-}
-
-/*-------------------------REGISTER---------------*/
-.register-container {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-
-}
-
-.register-form-container {
-    background-color: rgba(23, 22, 22, 0.9);
-    padding: 2em;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 800;
-}
-
-.register-forma-container,
-label {
-    text-align: center;
-}
-
-.register-fieldset {
-    height: 25%;
-    padding: 20px;
-}
-
-.register-btn {
-    padding: 10px;
-
+.menu-nav li a {
+  transition: 300ms;
+  color: white;
 }
