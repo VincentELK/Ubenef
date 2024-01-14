@@ -234,6 +234,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 800;
   height: 100%;
+  border-radius: 10px;
   
 }
 .register-form-container input {
