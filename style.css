@@ -140,9 +140,12 @@
 .main-container {
   background-color: rgb(23, 21, 21);
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   display: flex;
+  
 }
+
+
 
 .left-container {
   display: flex;
@@ -222,6 +225,7 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
+  
 }
 .register-form-container {
   background-color: rgb(6, 193, 103);
@@ -229,7 +233,7 @@
   color: rgb(0, 0, 0);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 800;
-  height: 100%;
+  max-height: 85%;
   border-radius: 10px;
 }
 .register-form-container input {
@@ -241,14 +245,13 @@
 }
 
 .register-form-container label {
-  padding: 5px;
+  padding-bottom: 5px;
   text-align: center;
 }
 
 .register-fieldset {
-  max-width: 100%;
-  max-height: 100%;
-  padding: 10px;
+  
+  border: none;
   display: flex;
   flex-direction: column-reverse;
 }
@@ -260,3 +263,5 @@
 .register-btn {
   padding: 5px;
 }
+
+
