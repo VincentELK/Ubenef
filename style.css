@@ -141,7 +141,9 @@
   transition: 300ms;
   fill: black;
 }
-
+.nav-closed {
+  display : none;
+}
 .nav-closed-container {
   width: 100px;
   height: 100%;
@@ -315,6 +317,9 @@
 .register-form-container input {
   justify-content: center;
   align-items: center;
+}
+.hide {
+  display: none;
 }
 .show {
   display: block;
