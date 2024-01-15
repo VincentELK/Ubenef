@@ -6,13 +6,6 @@ let getBenefice = calcul_btn.addEventListener("click", (e) => {
   let priceFullTank = gazPrice * maxTank;
   let distanceMax = 900;
   let priceByDistance = priceFullTank / distanceMax;
-let getBenefice = calcul_btn.addEventListener("click", (e) => {
-  let gazPrice = document.getElementById("gas_price").value;
-  let maxTank = 42;
-  let priceFullTank = gazPrice * maxTank;
-  let distanceMax = 900;
-  let priceByDistance = priceFullTank / distanceMax;
-)}
 
   const taxesInput = document.getElementById("taxes").value;
   const racePrice = document.getElementById("race_price").value;
