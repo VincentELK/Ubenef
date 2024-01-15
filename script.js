@@ -47,5 +47,5 @@ const createAccountBtn = document.querySelector(".create_account_btn");
 const registerContainer = document.querySelector(".register-form-container");
 
 createAccountBtn.addEventListener("click", () => {
-  registerContainer.classList.toggle("hidding");
+  registerContainer.classList.toggle("show");
 });

@@ -125,7 +125,7 @@
 }
 
 .log-nav {
-  padding-top: 160px;
+  padding-top: 16px;
 }
 .create-account:hover {
   background-color: rgb(6, 193, 103);
@@ -308,15 +308,16 @@
   color: rgb(0, 0, 0);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 800;
-  max-height: 85%;
+  max-height: 100%;
   border-radius: 10px;
+  display : none;
 }
 .register-form-container input {
   justify-content: center;
   align-items: center;
 }
-.hidding {
-  display: none;
+.show {
+  display: block;
 }
 
 .register-form-container label {
