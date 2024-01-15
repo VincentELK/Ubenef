@@ -6,6 +6,13 @@ let getBenefice = calcul_btn.addEventListener("click", (e) => {
   let priceFullTank = gazPrice * maxTank;
   let distanceMax = 900;
   let priceByDistance = priceFullTank / distanceMax;
+let getBenefice = calcul_btn.addEventListener("click", (e) => {
+  let gazPrice = document.getElementById("gas_price").value;
+  let maxTank = 42;
+  let priceFullTank = gazPrice * maxTank;
+  let distanceMax = 900;
+  let priceByDistance = priceFullTank / distanceMax;
+)}
 
   const taxesInput = document.getElementById("taxes").value;
   const racePrice = document.getElementById("race_price").value;
@@ -27,6 +34,18 @@ let getBenefice = calcul_btn.addEventListener("click", (e) => {
 
 const nav_btn_open = document.getElementById("nav-btn-open");
 const nav_btn_close = document.getElementById("nav-btn-close");
+const nav_opened = document.querySelector(".nav-opened");
+const nav_closed = document.querySelector(".nav-closed");
+
+nav_closed.style.display = "none";
+nav_btn_close.addEventListener("click", () => {
+  nav_closed.style.display = "block";
+  nav_opened.style.display = "none";
+});
+nav_btn_open.addEventListener("click", () => {
+  nav_closed.style.display = "none";
+  nav_opened.style.display = "block";
+});
 nav_btn_open.style.display = "none";
 
 // -------------Create account---------
