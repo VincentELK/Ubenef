@@ -1,5 +1,16 @@
-//--------------------- BENEF CALCULATOR----------------------//
+//------------------------Variable----------------------------
+const ubenefTab = document.querySelector(".ubenef-tab");
+const ubenefContainer = document.querySelector(".ubenef-container");
 
+//------------------Global Function---------------------
+
+//---------------------UBENEF DISPLAY------------------------
+ubenefContainer.classList.toggle("hide");
+ubenefTab.addEventListener("click", () => {
+  ubenefContainer.classList.toggle("hide");
+});
+
+//--------------------- UBENEF CALCULATOR----------------------
 let getBenefice = calcul_btn.addEventListener("click", (e) => {
   let gazPrice = document.getElementById("gas_price").value;
   let maxTank = 42;
@@ -24,10 +35,3 @@ let getBenefice = calcul_btn.addEventListener("click", (e) => {
 });
 
 // -------------Create account---------
-
-const createAccountBtn = document.querySelector(".create_account_btn");
-const registerContainer = document.querySelector(".register-form-container");
-
-createAccountBtn.addEventListener("click", () => {
-  registerContainer.classList.toggle("show");
-});
