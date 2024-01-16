@@ -32,18 +32,6 @@ let getBenefice = calcul_btn.addEventListener("click", (e) => {
   e.preventDefault();
 });
 
-//--------------------------- nav-------------
-nav_btn_open.style.display = "block";
-nav_btn_close.addEventListener("click", () => {
-  nav_closed.style.display = "block";
-  nav_opened.style.display = "none";
-});
-
-nav_btn_open.addEventListener("click", () => {
-  nav_closed.style.display = "none";
-  nav_opened.style.display = "block";
-});
-
 // -------------Create account---------
 
 createAccountBtn.addEventListener("click", () => {

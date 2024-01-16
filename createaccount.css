@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+}
+.main-container {
+  height: 100vh;
+  background-color: black;
+}
+
+.back-btn-container {
+  background-color: black;
+  padding: 30px;
+  padding-left: 40px;
+}
+
+.back-btn {
+  transition: 300ms;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+}
+.back-btn:hover {
+  transition: 300ms;
+  background-color: #fff;
+}
+.back-btn:hover svg {
+  fill: black;
+  transition: 300ms;
+}
+.back-btn svg {
+  fill: white;
+  padding: 5px;
+}
+
+.account-container {
+  padding-top: 0;
+  display: flex;
+  justify-content: center;
+
+  height: 85vh;
+}
+.account-form-container {
+  display: flex;
+  height: 80%;
+  width: 70%;
+}
+.login-container {
+  background-color: red;
+  height: 100%;
+  width: 50%;
+}
+.create-container {
+  background-color: blue;
+  height: 100%;
+  width: 50%;
+}
