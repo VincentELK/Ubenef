@@ -12,6 +12,15 @@
   font-family: uber;
 }
 
+/*-------Class CSS Display on/off-----*/
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
 /*----------Nav Bar--------------*/
 .nav-opened {
   transition: 300ms;
@@ -23,46 +32,27 @@
   padding: 15px;
   padding-left: 10%;
   padding-top: 30px;
+
+  margin-bottom: 45px;
+  margin-top: 45px;
+  transition: 300ms;
+  max-height: 100vh;
+}
+.nav-container {
+  border-right: 1px solid rgb(255, 255, 255);
+  width: 300px;
+  height: 100%;
+  background-color: black;
+  padding: 0 15px 0 10px;
 }
 .nav-logo-container {
   display: flex;
-}
-.nav-btn {
-  cursor: pointer;
-  padding-left: 25%;
-  max-width: 40px;
-}
-.nav-btn svg {
-  padding: 5px;
-  border-radius: 10px;
-  transition: 300ms;
-  fill: white;
-}
-.nav-btn svg:hover {
-  transition: 300ms;
-  background-color: white;
-  fill: black;
-}
-.nav-btn svg:active {
-  transform: scale(0.9);
-}
-
-.nav-btn-none {
-  display: none;
-}
-.nav-btn-block {
-  display: block;
-}
-.nav-btn-open {
-  min-width: 36px;
-  max-height: 36px;
+  padding-left: 40px;
 }
 
 .nav-title {
   cursor: pointer;
   max-width: 110px;
-}
-.nav-title {
   color: #06c167;
 }
 
@@ -97,6 +87,7 @@
   padding: 20px;
   padding-top: 100px;
   padding-left: 5px;
+  padding-bottom: 0;
 }
 .menu-nav li {
   padding-left: 10px;
@@ -125,7 +116,10 @@
 }
 
 .log-nav {
-  padding-top: 160px;
+  padding-top: 10px;
+}
+.create-account {
+  margin-bottom: 0;
 }
 .create-account:hover {
   background-color: rgb(6, 193, 103);
@@ -213,25 +207,30 @@
 
 /*-------------------index---------------*/
 .main-container {
-  background-color: rgb(23, 21, 21);
+  background-color: rgb(0, 0, 0);
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   display: flex;
 }
 
 .left-container {
   display: flex;
-  justify-content: space-around;
   padding: 20px 0px;
   max-width: 50%;
+  width: 40%;
+  height: 100vh;
 }
-
+/*-----Ubenef Form------*/
+.ubenef-container {
+  /*class for activate display toggle on JS*/
+}
 .calcul-form {
   max-height: 500px;
+  margin: 20px;
   padding: 20px;
   align-items: center;
   text-align: center;
-  background-color: rgb(0, 0, 0);
+  background-color: RGB(6, 193, 103);
   color: white;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -304,26 +303,22 @@
   color: rgb(0, 0, 0);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 800;
-  height: 100%;
+  max-height: 100%;
   border-radius: 10px;
+  display: none;
 }
 .register-form-container input {
   justify-content: center;
   align-items: center;
 }
-.hidding {
-  display: none;
-}
 
 .register-form-container label {
-  padding: 5px;
+  padding-bottom: 5px;
   text-align: center;
 }
 
 .register-fieldset {
-  max-width: 100%;
-  max-height: 100%;
-  padding: 10px;
+  border: none;
   display: flex;
   flex-direction: column-reverse;
 }

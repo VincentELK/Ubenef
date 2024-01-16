@@ -1,0 +1,96 @@
+@font-face {
+  font-family: uber;
+  src: url(./assets/UberMoveMedium.otf);
+}
+
+body {
+  margin: 0;
+}
+.main-container {
+  height: 100vh;
+  background-color: black;
+}
+
+.back-btn-container {
+  background-color: black;
+  padding: 30px;
+  padding-left: 40px;
+}
+
+.back-btn {
+  transition: 300ms;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+}
+.back-btn:hover {
+  transition: 300ms;
+  background-color: #fff;
+}
+.back-btn:hover svg {
+  fill: black;
+  transition: 300ms;
+}
+.back-btn svg {
+  fill: white;
+  padding: 5px;
+}
+
+.account-container {
+  padding-top: 0;
+  display: flex;
+  justify-content: center;
+
+  height: 85vh;
+}
+.account-form-container {
+  display: flex;
+  height: 80%;
+  width: 70%;
+}
+.login-container {
+  border-right: 1px solid white;
+  height: 100%;
+  width: 50%;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+}
+.create-container {
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+  width: 50%;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.login-title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-title-container h3 {
+  color: white;
+  font-family: uber;
+  font-size: 35px;
+}
+.login-title-container span {
+  color: #06c167;
+  font-family: uber;
+  font-size: 35px;
+}
+.create-title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.create-title-container h3 {
+  color: white;
+  font-family: uber;
+  font-size: 35px;
+}
+.create-title-container span {
+  color: #06c167;
+  font-family: uber;
+  font-size: 35px;
+}
