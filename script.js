@@ -1,3 +1,12 @@
+//------------------------Variable----------------------------
+const nav_btn_open = document.getElementById("nav-btn-open");
+const nav_btn_close = document.getElementById("nav-btn-close");
+const nav_opened = document.querySelector(".nav-opened");
+const nav_closed = document.querySelector(".nav-closed");
+
+const createAccountBtn = document.querySelector(".create_account_btn");
+const registerContainer = document.querySelector(".register-form-container");
+
 //--------------------- BENEF CALCULATOR----------------------//
 
 let getBenefice = calcul_btn.addEventListener("click", (e) => {
@@ -23,14 +32,8 @@ let getBenefice = calcul_btn.addEventListener("click", (e) => {
   e.preventDefault();
 });
 
-//--------------------------- nav
-
-const nav_btn_open = document.getElementById("nav-btn-open");
-const nav_btn_close = document.getElementById("nav-btn-close");
-const nav_opened = document.querySelector(".nav-opened");
-const nav_closed = document.querySelector(".nav-closed");
-
-// nav_closed.style.display = "none";
+//--------------------------- nav-------------
+nav_btn_open.style.display = "block";
 nav_btn_close.addEventListener("click", () => {
   nav_closed.style.display = "block";
   nav_opened.style.display = "none";
@@ -40,12 +43,8 @@ nav_btn_open.addEventListener("click", () => {
   nav_closed.style.display = "none";
   nav_opened.style.display = "block";
 });
-nav_btn_open.style.display = "block";
 
 // -------------Create account---------
-
-const createAccountBtn = document.querySelector(".create_account_btn");
-const registerContainer = document.querySelector(".register-form-container");
 
 createAccountBtn.addEventListener("click", () => {
   registerContainer.classList.toggle("show");
