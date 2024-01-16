@@ -1,13 +1,15 @@
 //------------------------Variable----------------------------
-const nav_btn_open = document.getElementById("nav-btn-open");
-const nav_btn_close = document.getElementById("nav-btn-close");
-const nav_opened = document.querySelector(".nav-opened");
-const nav_closed = document.querySelector(".nav-closed");
+const ubenefTab = document.querySelector(".ubenef-tab");
+const ubenefContainer = document.querySelector(".ubenef-container");
 
-const createAccountBtn = document.querySelector(".create_account_btn");
-const registerContainer = document.querySelector(".register-form-container");
+//------------------Global Function---------------------
 
-//--------------------- BENEF CALCULATOR----------------------//
+//---------------------UBENEF DISPLAY------------------------
+ubenefTab.addEventListener("click", () => {
+  ubenefContainer.classList.toggle("hide");
+});
+
+//--------------------- UBENEF CALCULATOR----------------------
 
 let getBenefice = calcul_btn.addEventListener("click", (e) => {
   let gazPrice = document.getElementById("gas_price").value;
@@ -33,7 +35,3 @@ let getBenefice = calcul_btn.addEventListener("click", (e) => {
 });
 
 // -------------Create account---------
-
-createAccountBtn.addEventListener("click", () => {
-  registerContainer.classList.toggle("show");
-});

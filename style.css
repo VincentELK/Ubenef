@@ -12,6 +12,15 @@
   font-family: uber;
 }
 
+/*-------Class CSS Display on/off-----*/
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
 /*----------Nav Bar--------------*/
 .nav-opened {
   margin-bottom: 45px;
@@ -136,18 +145,24 @@
   padding: 20px 0px;
   max-width: 50%;
 }
-
+/*-----Ubenef Form------*/
+.ubenef-container {
+  
+}
 .calcul-form {
   max-height: 500px;
+  margin: 20px;
   padding: 20px;
   align-items: center;
   text-align: center;
-  background-color: rgb(0, 0, 0);
+  background-color: RGB(6, 193, 103);
   color: white;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-weight: 700;
   border-radius: 20px;
+  
+  
 }
 
 .form-input {
@@ -223,12 +238,7 @@
   justify-content: center;
   align-items: center;
 }
-.hide {
-  display: none;
-}
-.show {
-  display: block;
-}
+
 
 .register-form-container label {
   padding-bottom: 5px;
