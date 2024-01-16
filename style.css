@@ -33,10 +33,7 @@
   width: 300px;
   height: 100%;
   background-color: black;
-  padding: 15px;
-  padding-left: 10%;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding : 0 15px 0 10px;
 }
 .nav-logo-container {
   display: flex;
@@ -46,8 +43,6 @@
 .nav-title {
   cursor: pointer;
   max-width: 110px;
-}
-.nav-title {
   color: #06c167;
 }
 
@@ -58,7 +53,6 @@
 .li-container {
   display: flex;
   align-items: start;
-
   cursor: pointer;
   transition: 300ms;
   border-radius: 15px;
@@ -111,7 +105,7 @@
 }
 
 .log-nav {
-  padding-top: 140px;
+  padding-top: 10px;
 }
 .create-account {
   margin-bottom: 0;
@@ -135,19 +129,21 @@
 .main-container {
   background-color: rgb(0, 0, 0);
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   display: flex;
 }
 
 .left-container {
   display: flex;
-  justify-content: space-around;
   padding: 20px 0px;
   max-width: 50%;
+  width: 40%;
+  height: 100vh;
+  
 }
 /*-----Ubenef Form------*/
 .ubenef-container {
-  
+  /*class for activate display toggle on JS*/
 }
 .calcul-form {
   max-height: 500px;

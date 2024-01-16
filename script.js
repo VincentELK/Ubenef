@@ -5,12 +5,12 @@ const ubenefContainer = document.querySelector(".ubenef-container");
 //------------------Global Function---------------------
 
 //---------------------UBENEF DISPLAY------------------------
+ubenefContainer.classList.toggle("hide");
 ubenefTab.addEventListener("click", () => {
   ubenefContainer.classList.toggle("hide");
 });
 
 //--------------------- UBENEF CALCULATOR----------------------
-
 let getBenefice = calcul_btn.addEventListener("click", (e) => {
   let gazPrice = document.getElementById("gas_price").value;
   let maxTank = 42;
