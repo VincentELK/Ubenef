@@ -22,6 +22,15 @@
   display: block;
 }
 
+/*-------Class CSS Display on/off-----*/
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
 /*----------Nav Bar--------------*/
 .nav-opened {
   transition: 300ms;
@@ -44,7 +53,11 @@
   width: 300px;
   height: 100%;
   background-color: black;
+<<<<<<< HEAD
   padding: 0 15px 0 10px;
+=======
+  padding : 0 15px 0 10px;
+>>>>>>> 8ce72ca6330b7fe113f4bc3278f1b3dd7cb4570b
 }
 .nav-logo-container {
   display: flex;
@@ -64,7 +77,6 @@
 .li-container {
   display: flex;
   align-items: start;
-
   cursor: pointer;
   transition: 300ms;
   border-radius: 15px;
@@ -220,6 +232,10 @@
   max-width: 50%;
   width: 40%;
   height: 100vh;
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 8ce72ca6330b7fe113f4bc3278f1b3dd7cb4570b
 }
 /*-----Ubenef Form------*/
 .ubenef-container {
@@ -237,6 +253,8 @@
     "Lucida Sans", Arial, sans-serif;
   font-weight: 700;
   border-radius: 20px;
+  
+  
 }
 
 .form-input {
@@ -312,6 +330,10 @@
   justify-content: center;
   align-items: center;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8ce72ca6330b7fe113f4bc3278f1b3dd7cb4570b
 
 .register-form-container label {
   padding-bottom: 5px;
