@@ -1,142 +1,109 @@
 <!DOCTYPE html>
 <html lang="en fr">
-  <head>
-    <!-- ---------------------------------icons -->
 
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
-    />
-    <!-- --------------------------------- -->
+<head>
+  <!-- ---------------------------------icons -->
 
-    <link rel="stylesheet" href="style.css" />
-    <link rel="manifest" href="manifest.json" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Utools</title>
-  </head>
-  <body>
-    <div class="nav-opened">
-      <div class="nav-container">
-        <div class="nav-logo-container">
-          <div class="nav-logo-icon-container">
-            <h1 class="nav-title"><span class="white-title">U</span>tools</h1>
-          </div>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <!-- --------------------------------- -->
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Utools</title>
+</head>
+
+<body>
+  <div class="nav-opened">
+    <div class="nav-container">
+      <div class="nav-logo-container">
+        <div class="nav-logo-icon-container">
+          <h1 class="nav-title"><span class="white-title">U</span>tools</h1>
         </div>
-
-        <nav class="menu-nav">
-          <ul>
-            <div class="li-container">
-              <li>
-                <div class="home_btn">
-                  <a href="./index.html"> Home </a>
-                </div>
-              </li>
-            </div>
-            <div class="li-container">
-              <li>
-                <div class="ubenef-tab">
-                  <a href="#">Ubenef </a>
-                </div>
-              </li>
-            </div>
-            <div class="li-container">
-              <li>
-                <div class="lorem2_btn">
-                  <a href="#">Lorem2 </a>
-                </div>
-              </li>
-            </div>
-            <div class="li-container">
-              <li>
-                <div class="contact_btn">
-                  <a href="#">Contact Us </a>
-                </div>
-              </li>
-            </div>
-
-            <div class="log-nav">
-              <div class="li-container">
-                <li>
-                  <div class="login_btn">
-                    <a href="#">Login </a>
-                  </div>
-                </li>
-              </div>
-              <div class="li-container create-account">
-                <li>
-                  <div class="create_account_btn">
-                    <a href="createaccount.html">Create An Account </a>
-                  </div>
-                </li>
-              </div>
-            </div>
-          </ul>
-        </nav>
       </div>
-    </div>
-    <div class="main-container">
-      <div class="left-container">
 
-        <div class="ubenef-container">
+      <nav class="menu-nav">
+        <ul>
+          <div class="li-container">
+            <li>
+              <div class="home_btn">
+                <a href="./index.html"> Home </a>
+              </div>
+            </li>
+          </div>
+          <div class="li-container ubenef-tab">
+            <li>
+              <div class="ubenef-tab">
+                <a href="#">Ubenef </a>
+              </div>
+            </li>
+          </div>
+          <div class="li-container">
+            <li>
+              <div class="lorem2_btn">
+                <a href="#">Lorem2 </a>
+              </div>
+            </li>
+          </div>
+          <div class="li-container">
+            <li>
+              <div class="contact_btn">
+                <a href="#">Contact Us </a>
+              </div>
+            </li>
+          </div>
+
+          <div class="log-nav">
+            <div class="li-container">
+              <li>
+                <div class="login_btn">
+                  <a href="#">Login </a>
+                </div>
+              </li>
+            </div>
+            <div class="li-container create-account">
+              <li>
+                <div class="create_account_btn">
+                  <a href="createaccount.html">Create An Account </a>
+                </div>
+              </li>
+            </div>
+          </div>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="main-container">
+    <div class="left-container">
+
+      <div class="ubenef-container">
 
         <div class="tool-container">
 
           <form action="" class="calcul-form">
             <label for="race_price">Price of the fare</label>
             <br />
-            <input
-              class="form-input"
-              type="number"
-              id="race_price"
-              min="0"
-              name="price"
-              step="0.10"
-            />
+            <input class="form-input" type="number" id="race_price" min="0" name="price" step="0.10" />
             <br />
             <label for="gas_price">Gas Price</label>
             <br />
-            <input
-              class="form-input"
-              type="number"
-              id="gas_price"
-              step="0.01"
-              min="0"
-            />
+            <input class="form-input" type="number" id="gas_price" step="0.01" min="0" />
             <br />
             <label for="distance_traveled">Distance covered(km)</label>
             <br />
-            <input
-              class="form-input"
-              type="number"
-              id="distance_traveled"
-              min="0"
-            />
+            <input class="form-input" type="number" id="distance_traveled" min="0" />
             <br />
             <label for="taxes">URSAFF/IRS/... amount(%)</label>
             <br />
-            <input
-              class="form-input"
-              type="number"
-              id="taxes"
-              step="0.01"
-              min="0"
-              value="21.20"
-            />
+            <input class="form-input" type="number" id="taxes" step="0.01" min="0" value="21.20" />
             <br />
             <label for="bonus">Bonus/Tips</label>
             <br />
-            <input
-              class="form-input"
-              type="number"
-              min="0"
-              id="bonus"
-              value="0"
-            />
+            <input class="form-input" type="number" min="0" id="bonus" value="0" />
             <br />
             <input id="calcul_btn" type="submit" value="Calculate my profit" />
             <br />
@@ -177,6 +144,6 @@
       </section>
     </div>
     <script src="script.js"></script>
-  </body>
-  
+</body>
+
 </html>
