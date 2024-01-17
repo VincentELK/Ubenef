@@ -1,14 +1,21 @@
 //------------------------Variable----------------------------
-const ubenefTab = document.querySelector(".ubenef-tab");
-const ubenefContainer = document.querySelector(".ubenef-container");
+const toolsTab = document.querySelectorAll(".tool");
+
+// const ubenefTab = document.querySelector(".ubenef-tab");
+// const ubenefContainer = document.querySelector(".ubenef-container");
 
 //------------------Global Function---------------------
 
-//---------------------UBENEF DISPLAY------------------------
-ubenefContainer.classList.toggle("hide");
-ubenefTab.addEventListener("click", () => {
-  ubenefContainer.classList.toggle("hide");
+toolsTab.forEach((tab) => {
+  tab.addEventListener("click", () => {
+    
+  });
 });
+//---------------------UBENEF DISPLAY------------------------
+// ubenefContainer.classList.toggle("hide");
+// ubenefTab.addEventListener("click", () => {
+//   ubenefContainer.classList.toggle("hide");
+// });
 
 //--------------------- UBENEF CALCULATOR----------------------
 let getBenefice = calcul_btn.addEventListener("click", (e) => {
