@@ -1,4 +1,16 @@
 //------------------------Variable----------------------------
+
+const ubenefTab = document.querySelector(".ubenef-tab");
+const ubenefContainer = document.querySelector(".ubenef-container");
+
+//------------------Global Function---------------------
+
+//---------------------UBENEF DISPLAY------------------------
+ubenefContainer.classList.toggle("hide");
+ubenefTab.addEventListener("click", () => {
+  ubenefContainer.classList.toggle("hide");
+});
+
 const toolsTab = document.querySelectorAll(".tool");
 
 // const ubenefTab = document.querySelector(".ubenef-tab");
@@ -7,9 +19,7 @@ const toolsTab = document.querySelectorAll(".tool");
 //------------------Global Function---------------------
 
 toolsTab.forEach((tab) => {
-  tab.addEventListener("click", () => {
-    
-  });
+  tab.addEventListener("click", () => {});
 });
 //---------------------UBENEF DISPLAY------------------------
 // ubenefContainer.classList.toggle("hide");

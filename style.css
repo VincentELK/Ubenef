@@ -10,6 +10,16 @@
   text-decoration: none;
   list-style: none;
   font-family: uber;
+  transition: 300ms;
+}
+
+/*-------Class CSS Display on/off-----*/
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
 }
 
 /*-------Class CSS Display on/off-----*/
@@ -23,21 +33,25 @@
 
 /*----------Nav Bar--------------*/
 .nav-opened {
-  margin-bottom: 45px;
-  margin-top: 45px;
-  transition: 300ms;
-  max-height: 100vh;
+  position: fixed;
 }
 .nav-container {
+  background-color: black;
+  margin-top: 45px;
   border-right: 1px solid rgb(255, 255, 255);
   width: 300px;
+
   height: 100%;
   background-color: black;
-  padding : 0 15px 0 10px;
+
+  padding: 0 15px 0 10px;
+  height: 88vh;
 }
+
 .nav-logo-container {
   display: flex;
   padding-left: 40px;
+  height: 10px;
 }
 
 .nav-title {
@@ -105,7 +119,7 @@
 }
 
 .log-nav {
-  padding-top: 10px;
+  padding-top: 120px;
 }
 .create-account {
   margin-bottom: 0;
@@ -125,12 +139,85 @@
   fill: black;
 }
 
+.nav-closed-container {
+  width: 100px;
+  height: 100%;
+  background-color: black;
+  padding: 15px;
+  padding-left: 10%;
+  padding-top: 30px;
+}
+.nav-closed-logo-container {
+  padding-left: 20px;
+}
+.nav-closed-btn {
+  transition: 300ms;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+}
+.nav-closed-btn:hover {
+  transition: 300ms;
+  background-color: #fff;
+}
+.nav-closed-btn:hover svg {
+  fill: black;
+  transition: 300ms;
+}
+.nav-closed-btn svg {
+  fill: white;
+  padding: 5px;
+}
+
+.nav-closed-menu ul {
+  padding: 10px;
+  padding-top: 100px;
+}
+.li-closed-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 300ms;
+  border-radius: 15px;
+  padding: 5.5px 10px;
+  margin: 20px 0;
+}
+
+.li-closed-container:hover {
+  transition: 300ms;
+  background-color: white;
+}
+.li-closed-container:hover svg {
+  transition: 300ms;
+
+  fill: black;
+}
+.li-closed-container:active {
+  transition: 100ms;
+  transform: scale(0.95);
+}
+.li-closed-container svg {
+  fill: white;
+}
+.closed-log-nav {
+  padding-top: 160px;
+}
+.closed-create-account:hover {
+  background-color: #06c167;
+}
+
 /*-------------------index---------------*/
+body {
+  background-color: black;
+}
 .main-container {
   background-color: rgb(0, 0, 0);
   width: 100vw;
   height: 100%;
   display: flex;
+  padding-left: 300px;
 }
 
 .left-container {
@@ -139,12 +226,9 @@
   max-width: 50%;
   width: 40%;
   height: 100vh;
-  
 }
 /*-----Ubenef Form------*/
-.ubenef-container {
-  /*class for activate display toggle on JS*/
-}
+
 .calcul-form {
   max-height: 500px;
   margin: 20px;
@@ -157,8 +241,6 @@
     "Lucida Sans", Arial, sans-serif;
   font-weight: 700;
   border-radius: 20px;
-  
-  
 }
 
 .form-input {
@@ -234,7 +316,6 @@
   justify-content: center;
   align-items: center;
 }
-
 
 .register-form-container label {
   padding-bottom: 5px;
