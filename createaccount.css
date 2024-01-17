@@ -21,21 +21,21 @@ body {
 }
 
 .back-btn {
-  transition: 300ms;
   border-radius: 10px;
   cursor: pointer;
   width: 36px;
   height: 36px;
 }
 .back-btn:hover {
-  transition: 300ms;
   background-color: #fff;
+  transition: 300ms;
 }
 .back-btn:hover svg {
   fill: black;
-  transition: 300ms;
+  transition: 100ms;
 }
 .back-btn svg {
+  transition: 100ms;
   fill: white;
   padding: 5px;
 }
@@ -50,7 +50,7 @@ body {
 .account-form-container {
   display: flex;
   height: 80%;
-  width: 70%;
+  width: 80%;
 }
 .login-container {
   border-right: 1px solid white;
@@ -58,6 +58,7 @@ body {
   width: 50%;
   border-bottom-left-radius: 25px;
   border-top-left-radius: 25px;
+  padding-right: 50px;
 }
 .create-container {
   background-color: rgb(0, 0, 0);
@@ -65,6 +66,7 @@ body {
   width: 50%;
   border-bottom-right-radius: 25px;
   border-top-right-radius: 25px;
+  padding-left: 50px;
 }
 
 .login-title-container {

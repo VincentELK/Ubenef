@@ -223,9 +223,7 @@
   height: 100vh;
 }
 /*-----Ubenef Form------*/
-.ubenef-container {
-  /*class for activate display toggle on JS*/
-}
+
 .calcul-form {
   max-height: 500px;
   margin: 20px;
