@@ -10,6 +10,7 @@
   text-decoration: none;
   list-style: none;
   font-family: uber;
+  transition: 300ms;
 }
 
 /*-------Class CSS Display on/off-----*/
