@@ -134,6 +134,95 @@ body {
 .email-container input:focus {
   outline: none;
 }
+.confirm-password-container {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+}
+.confirm-password-container span {
+  font-family: uber;
+  margin-left: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.confirm-password-container input {
+  padding-left: 20px;
+  margin-top: 25px;
+  font-family: uber;
+  background-color: black;
+  color: white;
+  height: 35px;
+  width: 100%;
+  border: 0;
+  border: 2px solid white;
+  border-radius: 10px;
+  letter-spacing: 1px;
+}
+
+.confirm-password-container input:hover {
+  transform: scale(0.99);
+  border: 2px solid #06c167;
+}
+.confirm-password-container input:focus {
+  outline: none;
+}
+.connect-btn-container {
+  padding-left: 50px;
+  margin-top: 60px;
+}
+.connect-btn-container input {
+  border: 0;
+  width: 145px;
+  height: 40px;
+  border-radius: 15px;
+  border: 2px solid #06c167;
+  color: white;
+  font-family: uber;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 300ms;
+  background-color: #ffffff00;
+}
+.connect-btn-container input:hover {
+  transition: 300ms;
+  background-color: #06c167;
+  color: black;
+  transform: scale(0.99);
+}
+.connect-btn-container input:active {
+  transform: scale(0.97);
+}
+.create-form-container {
+  width: 100%;
+}
+.create-btn-container {
+  padding-left: 50px;
+  margin-top: 60px;
+}
+.create-btn-container input {
+  border: 0;
+  width: 255px;
+  height: 40px;
+  border-radius: 15px;
+  border: 2px solid #06c167;
+  color: white;
+  font-family: uber;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 300ms;
+  background-color: #ffffff00;
+}
+.create-btn-container input:hover {
+  background-color: #06c167;
+  color: black;
+  transform: scale(0.99);
+}
+.create-btn-container input:active {
+  transform: scale(0.97);
+}
 .password-container {
   padding-top: 20px;
   padding-left: 50px;
@@ -168,30 +257,4 @@ body {
 }
 .password-container input:focus {
   outline: none;
-}
-.connect-btn-container {
-  padding-left: 50px;
-  margin-top: 60px;
-}
-.connect-btn-container input {
-  border: 0;
-  width: 145px;
-  height: 40px;
-  border-radius: 15px;
-  border: 2px solid #06c167;
-  color: white;
-  font-family: uber;
-  font-size: 18px;
-  cursor: pointer;
-  transition: 300ms;
-  background-color: #ffffff00;
-}
-.connect-btn-container input:hover {
-  transition: 300ms;
-  background-color: #06c167;
-  color: black;
-  transform: scale(0.99);
-}
-.connect-btn-container input:active {
-  transform: scale(0.97);
 }

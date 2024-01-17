@@ -25,6 +25,7 @@
 /*----------Nav Bar--------------*/
 .nav-opened {
   transition: 300ms;
+  max-height: 90vh;
 }
 .nav-container {
   width: 300px;
