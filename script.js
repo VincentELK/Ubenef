@@ -8,7 +8,7 @@ const toolsTab = document.querySelectorAll(".tool");
 
 toolsTab.forEach((tab) => {
   tab.addEventListener("click", () => {
-    
+
   });
 });
 //---------------------UBENEF DISPLAY------------------------
