@@ -33,35 +33,25 @@
 
 /*----------Nav Bar--------------*/
 .nav-opened {
-  transition: 300ms;
+  position: fixed;
 }
 .nav-container {
-  width: 300px;
-  height: 100%;
   background-color: black;
-  padding: 15px;
-  padding-left: 10%;
-  padding-top: 30px;
-
-  margin-bottom: 45px;
   margin-top: 45px;
-  transition: 300ms;
-  max-height: 100vh;
-}
-.nav-container {
   border-right: 1px solid rgb(255, 255, 255);
   width: 300px;
+
   height: 100%;
   background-color: black;
-<<<<<<< HEAD
+
   padding: 0 15px 0 10px;
-=======
-  padding : 0 15px 0 10px;
->>>>>>> 8ce72ca6330b7fe113f4bc3278f1b3dd7cb4570b
+  height: 88vh;
 }
+
 .nav-logo-container {
   display: flex;
   padding-left: 40px;
+  height: 10px;
 }
 
 .nav-title {
@@ -129,7 +119,7 @@
 }
 
 .log-nav {
-  padding-top: 10px;
+  padding-top: 120px;
 }
 .create-account {
   margin-bottom: 0;
@@ -219,11 +209,15 @@
 }
 
 /*-------------------index---------------*/
+body {
+  background-color: black;
+}
 .main-container {
   background-color: rgb(0, 0, 0);
   width: 100vw;
   height: 100%;
   display: flex;
+  padding-left: 300px;
 }
 
 .left-container {
@@ -232,15 +226,9 @@
   max-width: 50%;
   width: 40%;
   height: 100vh;
-<<<<<<< HEAD
-=======
-  
->>>>>>> 8ce72ca6330b7fe113f4bc3278f1b3dd7cb4570b
 }
 /*-----Ubenef Form------*/
-.ubenef-container {
-  /*class for activate display toggle on JS*/
-}
+
 .calcul-form {
   max-height: 500px;
   margin: 20px;
@@ -253,8 +241,6 @@
     "Lucida Sans", Arial, sans-serif;
   font-weight: 700;
   border-radius: 20px;
-  
-  
 }
 
 .form-input {
@@ -330,10 +316,6 @@
   justify-content: center;
   align-items: center;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 8ce72ca6330b7fe113f4bc3278f1b3dd7cb4570b
 
 .register-form-container label {
   padding-bottom: 5px;
