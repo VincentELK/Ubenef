@@ -37,6 +37,8 @@
   transition: 100ms;
   fill: white;
   padding: 5px;
+  width: 36px;
+  height: 36px;
 }
 
 /*-------Class CSS Display on/off-----*/
