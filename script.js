@@ -15,7 +15,9 @@ ubenefTab.addEventListener("click", () => {
 //------------------Global Function---------------------
 
 toolsTab.forEach((tab) => {
-  tab.addEventListener("click", () => {});
+  tab.addEventListener("click", () => {
+
+  });
 });
 
 //--------------------- UBENEF CALCULATOR----------------------

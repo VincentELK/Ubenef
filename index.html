@@ -19,6 +19,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Utools</title>
   </head>
+
   <body>
     <div class="nav-opened">
       <div class="nav-container">
@@ -46,8 +47,8 @@
             </div>
             <div class="li-container">
               <li>
-                <div class="lorem2-btn">
-                  <a href="#">Lorem2 </a>
+                <div class="lorem2_btn">
+                  <a href="tools.html">My tools </a>
                 </div>
               </li>
             </div>
@@ -80,105 +81,72 @@
       </div>
     </div>
     <div class="main-container">
-      <div class="left-container">
-        <div class="ubenef-container">
-          <div class="tool-container">
-            <form action="" class="calcul-form">
-              <label for="race-price">Price of the fare</label>
+      <div class="ubenef-container">
+        <div class="tool-container">
+          <form action="" class="calcul-form">
+            <label for="race_price">Price of the fare</label>
+            <br />
+            <input
+              class="form-input"
+              type="number"
+              id="race_price"
+              min="0"
+              name="price"
+              step="0.10"
+            />
+            <br />
+            <label for="gas_price">Gas Price</label>
+            <br />
+            <input
+              class="form-input"
+              type="number"
+              id="gas_price"
+              step="0.01"
+              min="0"
+            />
+            <br />
+            <label for="distance_traveled">Distance covered(km)</label>
+            <br />
+            <input
+              class="form-input"
+              type="number"
+              id="distance_traveled"
+              min="0"
+            />
+            <br />
+            <label for="taxes">URSAFF/IRS/... amount(%)</label>
+            <br />
+            <input
+              class="form-input"
+              type="number"
+              id="taxes"
+              step="0.01"
+              min="0"
+              value="21.20"
+            />
+            <br />
+            <label for="bonus">Bonus/Tips</label>
+            <br />
+            <input
+              class="form-input"
+              type="number"
+              min="0"
+              id="bonus"
+              value="0"
+            />
+            <br />
+            <input id="calcul_btn" type="submit" value="Calculate my profit" />
+            <br />
+            <p>Your profit</p>
+            <div class="result-container">
               <br />
-              <input
-                class="form-input"
-                type="number"
-                id="race-price"
-                min="0"
-                name="price"
-                step="0.10"
-              />
-              <br />
-              <label for="gas-price">Gas Price</label>
-              <br />
-              <input
-                class="form-input"
-                type="number"
-                id="gas-price"
-                step="0.01"
-                min="0"
-              />
-              <br />
-              <label for="distance-traveled">Distance covered(km)</label>
-              <br />
-              <input
-                class="form-input"
-                type="number"
-                id="distance-traveled"
-                min="0"
-              />
-              <br />
-              <label for="taxes">URSAFF/IRS/... amount(%)</label>
-              <br />
-              <input
-                class="form-input"
-                type="number"
-                id="taxes"
-                step="0.01"
-                min="0"
-                value="21.20"
-              />
-              <br />
-              <label for="bonus">Bonus/Tips</label>
-              <br />
-              <input
-                class="form-input"
-                type="number"
-                min="0"
-                id="bonus"
-                value="0"
-              />
-              <br />
-              <input
-                id="calcul-btn"
-                type="submit"
-                value="Calculate my profit"
-              />
-              <br />
-              <p>Your profit</p>
-              <div class="result-container">
-                <br />
-                <div id="benefice" class="result-input"></div>
-              </div>
-            </form>
-          </div>
+              <div id="benefice" class="result-input"></div>
+            </div>
+          </form>
         </div>
-        <!-- ------------------fin left container -->
-        <!-- <section class="right-container">
-          <div class="week-ranking" id="week-ranking">
-            <div class="week-deliveries-ranking">
-              <h2>Week Deliveries Ranking</h2>
-              <div class="total-delivery-container">
-                <h3>Total of deliveries :</h3>
-                <p id="total-delivery-number"></p>
-              </div>
-              <div>
-                <h3>Best delivrer :</h3>
-                <p id="best-delivery-prsn"></p>
-              </div>
-            </div>
-
-            <div class="week-turnover-ranking">
-              <h2>Week Turnover Ranking</h2>
-              <div>
-                <h3>Total of Turnover :</h3>
-                <p id="total-turnover"></p>
-              </div>
-              <div>
-                <h3>Best Turnover :</h3>
-              </div>
-            </div>
-          </div>
-        </section>
-      --></div>
+      </div>
+      <script src="script.js"></script>
     </div>
-
-    <script src="script.js"></script>
+    >>>>>>> 6ecf51de9c129ab8efdc24b28fe703ca1a845451
   </body>
 </html>

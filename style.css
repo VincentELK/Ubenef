@@ -12,6 +12,32 @@
   font-family: uber;
   transition: 300ms;
 }
+/*-----------------------Back Boutton general--------*/
+.back-btn-container {
+  background-color: black;
+  padding: 30px;
+  padding-left: 40px;
+}
+
+.back-btn {
+  border-radius: 10px;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+}
+.back-btn:hover {
+  background-color: #fff;
+  transition: 300ms;
+}
+.back-btn:hover svg {
+  fill: black;
+  transition: 100ms;
+}
+.back-btn svg {
+  transition: 100ms;
+  fill: white;
+  padding: 5px;
+}
 
 /*-------Class CSS Display on/off-----*/
 
@@ -261,77 +287,241 @@ body {
   color: #0e0d0d;
 }
 
-@media screen and (max-width: 500px) {
-  .main-container {
-    width: 100%;
-    justify-content: center;
-    display: block;
-  }
-
-  .form-input {
-    display: flex;
-    height: 30px;
-
-    padding: 10px;
-    text-align: center;
-    border-radius: 20px;
-    justify-content: center;
-    align-items: center;
-  }
+/*-------------------------Login/register---------------*/
+.create-account-main-container {
+  height: 100vh;
+  background-color: black;
 }
 
-.week-ranking {
+.account-container {
+  padding-top: 0;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  color: azure;
-  padding: 20px;
-}
 
-.week-deliveries-ranking,
-.week-turnover-ranking {
-  padding: 20px;
-  background-color: #0e0d0d;
-  margin: 50px 0px;
+  height: 85vh;
 }
-
-/*-------------------------REGISTER---------------*/
-.register-form-container form {
-  align-items: center;
-  justify-content: center;
+.account-form-container {
   display: flex;
-  flex-direction: column;
+  height: 80%;
+  width: 80%;
 }
-.register-form-container {
-  background-color: rgb(6, 193, 103);
-  padding: 5px;
-  color: rgb(0, 0, 0);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 800;
-  max-height: 100%;
-  border-radius: 10px;
-  display: none;
+.login-container {
+  border-right: 1px solid white;
+  height: 100%;
+  width: 50%;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  padding-right: 50px;
 }
-.register-form-container input {
-  justify-content: center;
-  align-items: center;
+.create-container {
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+  width: 50%;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  padding-left: 50px;
 }
 
-.register-form-container label {
+.login-title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-title-container h3 {
+  color: white;
+  font-family: uber;
+  font-size: 35px;
+}
+.login-title-container span {
+  color: #06c167;
+  font-family: uber;
+  font-size: 35px;
+}
+.create-title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.create-title-container h3 {
+  color: white;
+  font-family: uber;
+  font-size: 35px;
+}
+.create-title-container span {
+  color: #06c167;
+  font-family: uber;
+  font-size: 35px;
+}
+
+.login-form-container {
+  width: 100%;
+}
+.email-container {
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+}
+.email-container span {
+  font-family: uber;
+  margin-left: 5px;
   padding-bottom: 5px;
-  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.register-fieldset {
-  border: none;
+.email-container input {
+  padding-left: 20px;
+  margin-top: 25px;
+  font-family: uber;
+  background-color: black;
+  color: white;
+  height: 35px;
+  width: 100%;
+  border: 0;
+  border: 2px solid white;
+  border-radius: 10px;
+  letter-spacing: 1px;
+}
+.email-container input:hover {
+  transform: scale(0.99);
+  border: 2px solid #06c167;
+}
+.email-container input:focus {
+  outline: none;
+}
+.confirm-password-container {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+}
+.confirm-password-container span {
+  font-family: uber;
+  margin-left: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.confirm-password-container input {
+  padding-left: 20px;
+  margin-top: 25px;
+  font-family: uber;
+  background-color: black;
+  color: white;
+  height: 35px;
+  width: 100%;
+  border: 0;
+  border: 2px solid white;
+  border-radius: 10px;
+  letter-spacing: 1px;
+}
+
+.confirm-password-container input:hover {
+  transform: scale(0.99);
+  border: 2px solid #06c167;
+}
+.confirm-password-container input:focus {
+  outline: none;
+}
+.connect-btn-container {
+  padding-left: 50px;
+  margin-top: 60px;
+  padding-right: 20px;
+}
+.connect-btn-container input {
+  border: 0;
+  width: 145px;
+  height: 40px;
+  border-radius: 15px;
+  border: 2px solid #06c167;
+  color: white;
+  font-family: uber;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 300ms;
+  background-color: #ffffff00;
+}
+.connect-btn-container input:hover {
+  transition: 300ms;
+  background-color: #06c167;
+  color: black;
+  transform: scale(0.99);
+}
+.connect-btn-container input:active {
+  transform: scale(0.97);
+}
+.create-form-container {
+  width: 100%;
+}
+.create-btn-container {
+  padding-left: 50px;
+  margin-top: 60px;
+}
+.create-btn-container input {
+  border: 0;
+  width: 170px;
+  height: 40px;
+  border-radius: 15px;
+  border: 2px solid #06c167;
+  color: white;
+  font-family: uber;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 300ms;
+  background-color: #ffffff00;
+}
+.create-btn-container input:hover {
+  background-color: #06c167;
+  color: black;
+  transform: scale(0.99);
+}
+.create-btn-container input:active {
+  transform: scale(0.97);
+}
+.password-container {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+}
+.password-container span {
+  font-family: uber;
+  margin-left: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.password-container input {
+  padding-left: 20px;
+  margin-top: 25px;
+  font-family: uber;
+  background-color: black;
+  color: white;
+  height: 35px;
+  width: 100%;
+  border: 0;
+  border: 2px solid white;
+  border-radius: 10px;
+  letter-spacing: 1px;
+}
+
+.password-container input:hover {
+  transform: scale(0.99);
+  border: 2px solid #06c167;
+}
+.password-container input:focus {
+  outline: none;
+}
+.connect-container {
   display: flex;
-  flex-direction: column-reverse;
+}
+.uber-connect input {
+  width: 219px;
+}
+.uber-connect {
+  padding-left: 60px;
 }
 
-.register-fieldset div {
-  margin-bottom: 5px;
-}
-
-.register-btn {
-  padding: 5px;
-}
+/*-------------------------Tools------------------------*/
