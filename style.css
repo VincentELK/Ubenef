@@ -15,7 +15,7 @@
 /*-----------------------Back Boutton general--------*/
 .back-btn-container {
   background-color: black;
-  padding: 30px;
+  padding: 10px;
   padding-left: 40px;
 }
 
@@ -50,28 +50,18 @@
   display: block;
 }
 
-/*-------Class CSS Display on/off-----*/
-
-.hide {
-  display: none;
-}
-.show {
-  display: block;
-}
-
 /*----------Nav Bar--------------*/
 .nav-opened {
   position: fixed;
 }
+
 .nav-container {
   background-color: black;
-  margin-top: 45px;
+  margin-top: 40px;
   border-right: 1px solid rgb(255, 255, 255);
   width: 300px;
-
   height: 100%;
   background-color: black;
-
   padding: 0 15px 0 10px;
   height: 88vh;
 }
@@ -116,7 +106,7 @@
 
 .menu-nav ul {
   padding: 20px;
-  padding-top: 100px;
+  margin-top: 80px;
   padding-left: 5px;
   padding-bottom: 0;
 }
@@ -147,7 +137,7 @@
 }
 
 .log-nav {
-  padding-top: 120px;
+  padding-top: 50px;
 }
 .create-account {
   margin-bottom: 0;
@@ -526,4 +516,8 @@ body {
   padding-left: 60px;
 }
 
-/*-------------------------Tools------------------------*/
+/*-------------------------toolssssssssss------------------------*/
+.toolsssssssss-main-container {
+  height: 100vh;
+  background-color: black;
+}
