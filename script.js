@@ -3,6 +3,7 @@
 const ubenefTab = document.querySelector(".ubenef-tab");
 const ubenefContainer = document.querySelector(".ubenef-container");
 const toolsTab = document.querySelectorAll(".tool");
+const homeTab = document.querySelectorAll(".home-li");
 const calcul_btn = document.getElementById("calcul-btn");
 //------------------Global Function---------------------
 
@@ -16,7 +17,12 @@ ubenefTab.addEventListener("click", () => {
 
 toolsTab.forEach((tab) => {
   tab.addEventListener("click", () => {
-
+    window.open("tools.html", "_self");
+  });
+});
+homeTab.forEach((tab) => {
+  tab.addEventListener("click", () => {
+    window.open("index.html", "_self");
   });
 });
 
