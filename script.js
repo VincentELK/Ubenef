@@ -3,7 +3,7 @@
 const ubenefTab = document.querySelector(".ubenef-tab");
 const ubenefContainer = document.querySelector(".ubenef-container");
 const toolsTab = document.querySelectorAll(".tool");
-const calcul_btn = document.getElementById("calcul-btn");
+const calcul_btn = document.getElementById("calcul_btn");
 //------------------Global Function---------------------
 
 //---------------------UBENEF DISPLAY------------------------
@@ -15,15 +15,13 @@ ubenefTab.addEventListener("click", () => {
 //------------------Global Function---------------------
 
 toolsTab.forEach((tab) => {
-  tab.addEventListener("click", () => {
-
-  });
+  tab.addEventListener("click", () => {});
 });
 
 //--------------------- UBENEF CALCULATOR----------------------
 let getBenefice = calcul_btn.addEventListener("click", (e) => {
   let gazPrice = document.getElementById("gas_price").value;
-  let maxTank = 42;
+  let maxTank = 70;
   let priceFullTank = gazPrice * maxTank;
   let distanceMax = 900;
   let priceByDistance = priceFullTank / distanceMax;
