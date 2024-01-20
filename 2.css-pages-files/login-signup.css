@@ -257,14 +257,6 @@
   display: flex;
 }
 
-.uber-connect input {
-  width: 219px;
-}
-
-.uber-connect {
-  padding-left: 60px;
-}
-
 .tool-container {
   background-color: black;
   margin-left: 40px;
