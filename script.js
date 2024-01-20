@@ -54,3 +54,4 @@ const calcul_btn = document.getElementById("calcul_btn");
 // home_li.addEventListener("click", (e) => {
 //   window.open("index.html", "_self");
 // });
+

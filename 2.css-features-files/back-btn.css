@@ -1,0 +1,36 @@
+@font-face {
+  font-family: uber;
+  src: url(./assets/UberMoveMedium.otf);
+}
+
+/*-----------------------Back Boutton general--------*/
+.back-btn-container {
+  background-color: black;
+  padding: 10px;
+  padding-left: 40px;
+}
+
+.back-btn {
+  border-radius: 10px;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+}
+
+.back-btn:hover {
+  background-color: #fff;
+  transition: 300ms;
+}
+
+.back-btn:hover svg {
+  fill: black;
+  transition: 100ms;
+}
+
+.back-btn svg {
+  transition: 100ms;
+  fill: white;
+  padding: 5px;
+  width: 36px;
+  height: 36px;
+}
