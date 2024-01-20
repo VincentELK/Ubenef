@@ -12,6 +12,7 @@
   font-family: uber;
   transition: 300ms;
 }
+
 /*-----------------------Back Boutton general--------*/
 .back-btn-container {
   background-color: black;
@@ -25,14 +26,17 @@
   width: 36px;
   height: 36px;
 }
+
 .back-btn:hover {
   background-color: #fff;
   transition: 300ms;
 }
+
 .back-btn:hover svg {
   fill: black;
   transition: 100ms;
 }
+
 .back-btn svg {
   transition: 100ms;
   fill: white;
@@ -46,6 +50,7 @@
 .hide {
   display: none;
 }
+
 .show {
   display: block;
 }
@@ -60,10 +65,10 @@
   margin-top: 40px;
   border-right: 1px solid rgb(255, 255, 255);
   width: 300px;
-  height: 100%;
+  height: 88vh;
   background-color: black;
   padding: 0 15px 0 10px;
-  height: 88vh;
+
 }
 
 .nav-logo-container {
@@ -96,9 +101,11 @@
 .li-container:hover {
   background-color: white;
 }
+
 .li-container:hover a {
   color: black;
 }
+
 .li-container:active {
   transition: 100ms;
   transform: scale(0.95);
@@ -110,6 +117,7 @@
   padding-left: 5px;
   padding-bottom: 0;
 }
+
 .menu-nav li {
   padding-left: 10px;
 }
@@ -129,9 +137,11 @@
   font-size: 16px;
   padding: 20px;
 }
+
 .menu-nav li svg {
   fill: white;
 }
+
 .menu-nav li svg:hover {
   background-color: white;
 }
@@ -139,97 +149,34 @@
 .log-nav {
   padding-top: 50px;
 }
+
 .create-account {
   margin-bottom: 0;
 }
+
 .create-account:hover {
   background-color: rgb(6, 193, 103);
 }
+
 .li-container a {
   padding: auto;
 }
+
 .li-container svg {
   display: none;
   transition: 300ms;
 }
+
 .li-container:hover svg {
   transition: 300ms;
   fill: black;
-}
-
-.nav-closed-container {
-  width: 100px;
-  height: 100%;
-  background-color: black;
-  padding: 15px;
-  padding-left: 10%;
-  padding-top: 30px;
-}
-.nav-closed-logo-container {
-  padding-left: 20px;
-}
-.nav-closed-btn {
-  transition: 300ms;
-  border-radius: 10px;
-  cursor: pointer;
-  width: 36px;
-  height: 36px;
-}
-.nav-closed-btn:hover {
-  transition: 300ms;
-  background-color: #fff;
-}
-.nav-closed-btn:hover svg {
-  fill: black;
-  transition: 300ms;
-}
-.nav-closed-btn svg {
-  fill: white;
-  padding: 5px;
-}
-
-.nav-closed-menu ul {
-  padding: 10px;
-  padding-top: 100px;
-}
-.li-closed-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: 300ms;
-  border-radius: 15px;
-  padding: 5.5px 10px;
-  margin: 20px 0;
-}
-
-.li-closed-container:hover {
-  transition: 300ms;
-  background-color: white;
-}
-.li-closed-container:hover svg {
-  transition: 300ms;
-
-  fill: black;
-}
-.li-closed-container:active {
-  transition: 100ms;
-  transform: scale(0.95);
-}
-.li-closed-container svg {
-  fill: white;
-}
-.closed-log-nav {
-  padding-top: 160px;
-}
-.closed-create-account:hover {
-  background-color: #06c167;
 }
 
 /*-------------------index---------------*/
 body {
   background-color: black;
 }
+
 .main-container {
   background-color: rgb(0, 0, 0);
   width: 100vw;
@@ -238,13 +185,7 @@ body {
   padding-left: 300px;
 }
 
-.left-container {
-  display: flex;
-  padding: 20px 0px;
-  max-width: 50%;
-  width: 40%;
-  height: 100vh;
-}
+
 /*-----Ubenef Form------*/
 
 .calcul-form {
@@ -292,11 +233,13 @@ body {
 
   height: 85vh;
 }
+
 .account-form-container {
   display: flex;
   height: 80%;
   width: 80%;
 }
+
 .login-container {
   border-right: 1px solid white;
   height: 100%;
@@ -305,6 +248,7 @@ body {
   border-top-left-radius: 25px;
   padding-right: 50px;
 }
+
 .create-container {
   background-color: rgb(0, 0, 0);
   height: 100%;
@@ -324,11 +268,13 @@ body {
   font-family: uber;
   font-size: 35px;
 }
+
 .login-title-container span {
   color: #06c167;
   font-family: uber;
   font-size: 35px;
 }
+
 .create-title-container {
   display: flex;
   justify-content: center;
@@ -339,6 +285,7 @@ body {
   font-family: uber;
   font-size: 35px;
 }
+
 .create-title-container span {
   color: #06c167;
   font-family: uber;
@@ -348,11 +295,13 @@ body {
 .login-form-container {
   width: 100%;
 }
+
 .email-container {
   padding-left: 50px;
   padding-right: 50px;
   color: white;
 }
+
 .email-container span {
   font-family: uber;
   margin-left: 5px;
@@ -374,19 +323,23 @@ body {
   border-radius: 10px;
   letter-spacing: 1px;
 }
+
 .email-container input:hover {
   transform: scale(0.99);
   border: 2px solid #06c167;
 }
+
 .email-container input:focus {
   outline: none;
 }
+
 .confirm-password-container {
   padding-top: 20px;
   padding-left: 50px;
   padding-right: 50px;
   color: white;
 }
+
 .confirm-password-container span {
   font-family: uber;
   margin-left: 5px;
@@ -413,14 +366,17 @@ body {
   transform: scale(0.99);
   border: 2px solid #06c167;
 }
+
 .confirm-password-container input:focus {
   outline: none;
 }
+
 .connect-btn-container {
   padding-left: 50px;
   margin-top: 60px;
   padding-right: 20px;
 }
+
 .connect-btn-container input {
   border: 0;
   width: 145px;
@@ -434,22 +390,27 @@ body {
   transition: 300ms;
   background-color: #ffffff00;
 }
+
 .connect-btn-container input:hover {
   transition: 300ms;
   background-color: #06c167;
   color: black;
   transform: scale(0.99);
 }
+
 .connect-btn-container input:active {
   transform: scale(0.97);
 }
+
 .create-form-container {
   width: 100%;
 }
+
 .create-btn-container {
   padding-left: 50px;
   margin-top: 60px;
 }
+
 .create-btn-container input {
   border: 0;
   width: 170px;
@@ -463,20 +424,24 @@ body {
   transition: 300ms;
   background-color: #ffffff00;
 }
+
 .create-btn-container input:hover {
   background-color: #06c167;
   color: black;
   transform: scale(0.99);
 }
+
 .create-btn-container input:active {
   transform: scale(0.97);
 }
+
 .password-container {
   padding-top: 20px;
   padding-left: 50px;
   padding-right: 50px;
   color: white;
 }
+
 .password-container span {
   font-family: uber;
   margin-left: 5px;
@@ -503,21 +468,47 @@ body {
   transform: scale(0.99);
   border: 2px solid #06c167;
 }
+
 .password-container input:focus {
   outline: none;
 }
+
 .connect-container {
   display: flex;
 }
+
 .uber-connect input {
   width: 219px;
 }
+
 .uber-connect {
   padding-left: 60px;
 }
 
-/*-------------------------toolssssssssss------------------------*/
-.toolsssssssss-main-container {
+/*-------------------------tools------------------------*/
+.nav-tool-container {
+  margin-top: auto;
+  height: 80vh;
+  border-radius: 0 10px 10px 0;
+}
+
+.tools-main-container {
   height: 100vh;
   background-color: black;
+}
+
+.tool-display-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #06c167;
+}
+
+.tool-display {
+  background-color: black;
+  width: 50%;
+  height: 88%;
+  margin-left: 40px;
 }
