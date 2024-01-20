@@ -1,0 +1,117 @@
+@font-face {
+  font-family: uber;
+  src: url(./assets/UberMoveMedium.otf);
+}
+
+/*----------Nav Bar--------------*/
+
+.nav-container {
+  position: fixed;
+  background-color: black;
+  border-right: 1px solid rgb(255, 255, 255);
+  margin-top: 45px;
+  padding: 15px 15px 10px;
+  height: 88vh;
+  width: 300px;
+}
+
+.nav-logo-container {
+  display: flex;
+  padding-left: 40px;
+  height: 10px;
+}
+
+.nav-title {
+  cursor: pointer;
+  max-width: 110px;
+  color: #06c167;
+}
+
+.nav-title span.white-title {
+  color: white;
+}
+
+.li-container {
+  display: flex;
+  align-items: start;
+  cursor: pointer;
+  transition: 300ms;
+  border-radius: 15px;
+  padding: 10px 10px;
+  margin: 20px 0;
+  max-height: 39.02px;
+}
+
+.li-container:hover {
+  background-color: white;
+}
+
+.li-container:hover a {
+  color: black;
+}
+
+.li-container:active {
+  transition: 100ms;
+  transform: scale(0.95);
+}
+
+.menu-nav ul {
+  padding: 20px;
+  margin-top: 80px;
+  padding-left: 5px;
+  padding-bottom: 0;
+}
+
+.menu-nav li {
+  padding-left: 10px;
+}
+
+.menu-nav li a {
+  transition: 300ms;
+  color: white;
+}
+
+.menu-nav li:hover a {
+  color: black;
+}
+
+.menu-nav a {
+  color: rgb(12, 11, 11);
+  text-decoration: none;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.menu-nav li svg {
+  fill: white;
+}
+
+.menu-nav li svg:hover {
+  background-color: white;
+}
+
+.log-nav {
+  padding-top: 150px;
+}
+
+.create-account {
+  margin-bottom: 0;
+}
+
+.create-account:hover {
+  background-color: rgb(6, 193, 103);
+}
+
+.li-container a {
+  padding: auto;
+}
+
+.li-container svg {
+  display: none;
+  transition: 300ms;
+}
+
+.li-container:hover svg {
+  transition: 300ms;
+  fill: black;
+}

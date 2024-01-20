@@ -1,0 +1,69 @@
+@font-face {
+  font-family: uber;
+  src: url(./assets/UberMoveMedium.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  transition: 300ms;
+  font-family: uber;
+}
+
+body {
+  background-color: black;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+/*  */
+/* */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+/*-----Ubenef Form------*/
+
+.calcul-form {
+  max-height: 500px;
+  width: auto;
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  background-color: RGB(6, 193, 103);
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 700;
+  border-radius: 20px;
+}
+
+.form-input {
+  display: flex;
+  height: 30px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.result-container {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #0e0d0d;
+}
