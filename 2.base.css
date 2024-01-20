@@ -1,6 +1,6 @@
 @font-face {
   font-family: uber;
-  src: url(./0.assets/UberMoveMedium.otf);
+  src: url(./assets/UberMoveMedium.otf);
 }
 
 * {
@@ -24,7 +24,6 @@ body {
 .show {
   display: block;
 }
-
 
 /*-----Ubenef Form------*/
 
