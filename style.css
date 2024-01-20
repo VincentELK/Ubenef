@@ -68,6 +68,7 @@
   height: 88vh;
   background-color: black;
   padding: 0 15px 0 10px;
+  height: 88vh;
 }
 
 .nav-logo-container {
@@ -182,6 +183,47 @@ body {
   height: 100%;
   display: flex;
   padding-left: 300px;
+}
+
+.left-container {
+  display: flex;
+  padding: 20px 0px;
+  max-width: 50%;
+  width: 40%;
+  height: 100vh;
+}
+/*-----Ubenef Form------*/
+
+.calcul-form {
+  max-height: 500px;
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  background-color: RGB(6, 193, 103);
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 700;
+  border-radius: 20px;
+}
+
+.form-input {
+  display: flex;
+  height: 30px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.result-container {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #0e0d0d;
 }
 
 /*-------------------------Login/register---------------*/
@@ -449,12 +491,69 @@ body {
   padding-left: 60px;
 }
 
-/*-------------------------tools display------------------------*/
-
-.tools-main-container {
+/*-------------------------toolssssssssss------------------------*/
+.toolsssssssss-main-container {
   height: 100vh;
   background-color: black;
   padding-left: 300px;
+}
+
+.tool-display-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #06c167;
+}
+
+.tool-container {
+  background-color: black;
+  margin-left: 40px;
+}
+
+/*--------------------------tools----------------------*/
+
+/*-----Ubenef Form------*/
+
+.calcul-form {
+  max-height: 500px;
+  width: auto;
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  background-color: RGB(6, 193, 103);
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 700;
+  border-radius: 20px;
+}
+
+.form-input {
+  display: flex;
+  height: 30px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.result-container {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #0e0d0d;
+}
+
+/*-------------------Weather(test)------------------*/
+
+.weather-container {
+  background-color: #0619c1;
+  display: none;
 }
 
 .tool-display-container {
