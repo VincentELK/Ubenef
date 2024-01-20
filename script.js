@@ -1,22 +1,32 @@
 //------------------------Variable----------------------------
 
-const ubenefTab = document.getElementById("ubenef-tab");
+const toolsTab = document.querySelectorAll(".tool-tab");
+const tools = document.querySelectorAll(".tool-container")
+
 const ubenefContainer = document.querySelector("ubenef-container");
 
-const home_li = document.getElementById("home-li");
-const tools_li = document.getElementById("tools-li");
+const home_li = document.getElementById("home_li");
+const tools_li = document.getElementById("tools_li");
 
 const calcul_btn = document.getElementById("calcul_btn");
 
 //------------------Global Function---------------------
 
-//---------------------UBENEF DISPLAY------------------------
-// ubenefContainer.classList.toggle("hide");
-// ubenefTab.addEventListener("click", () => {
-//   ubenefContainer.classList.toggle("hide");
-// });
+
 
 // ------------------Global Function---------------------
+
+//-------------------Tools Display---------------------
+toolsTab.forEach((tab, index) => {
+  tab.addEventListener('click', () => {
+    tools.forEach(tool => {
+      tool.classList.toggle("hide")
+    })
+
+  });
+});
+
+
 
 // // --------------------- UBENEF CALCULATOR----------------------
 // let getBenefice = calcul_btn.addEventListener("click", (e) => {
@@ -44,10 +54,10 @@ const calcul_btn = document.getElementById("calcul_btn");
 
 // -------------Create account------
 
-tools_li.addEventListener("click", () => {
-  window.open("tools.html", "_self");
-});
+// tools_li.addEventListener("click", () => {
+//   window.open("tools.html", "_self");
+// });
 
-home_li.addEventListener("click", (e) => {
-  window.open("index.html", "_self");
-});
+// home_li.addEventListener("click", (e) => {
+//   window.open("index.html", "_self");
+// });

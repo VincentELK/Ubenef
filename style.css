@@ -12,6 +12,7 @@
   font-family: uber;
   transition: 300ms;
 }
+
 /*-----------------------Back Boutton general--------*/
 .back-btn-container {
   background-color: black;
@@ -25,14 +26,17 @@
   width: 36px;
   height: 36px;
 }
+
 .back-btn:hover {
   background-color: #fff;
   transition: 300ms;
 }
+
 .back-btn:hover svg {
   fill: black;
   transition: 100ms;
 }
+
 .back-btn svg {
   transition: 100ms;
   fill: white;
@@ -46,22 +50,25 @@
 .hide {
   display: none;
 }
+
 .show {
   display: block;
 }
 
 /*----------Nav Bar--------------*/
+.nav-opened {
+  position: fixed;
+}
 
 .nav-container {
   background-color: black;
-  margin-top: 45px;
-  position: fixed;
+  margin-top: 40px;
   border-right: 1px solid rgb(255, 255, 255);
   width: 300px;
-  height: 100%;
-  background-color: black;
-  padding: 15px 15px 10px;
   height: 88vh;
+  background-color: black;
+  padding: 0 15px 0 10px;
+
 }
 
 .nav-logo-container {
@@ -94,9 +101,11 @@
 .li-container:hover {
   background-color: white;
 }
+
 .li-container:hover a {
   color: black;
 }
+
 .li-container:active {
   transition: 100ms;
   transform: scale(0.95);
@@ -108,6 +117,7 @@
   padding-left: 5px;
   padding-bottom: 0;
 }
+
 .menu-nav li {
   padding-left: 10px;
 }
@@ -127,9 +137,11 @@
   font-size: 16px;
   padding: 20px;
 }
+
 .menu-nav li svg {
   fill: white;
 }
+
 .menu-nav li svg:hover {
   background-color: white;
 }
@@ -137,19 +149,24 @@
 .log-nav {
   padding-top: 50px;
 }
+
 .create-account {
   margin-bottom: 0;
 }
+
 .create-account:hover {
   background-color: rgb(6, 193, 103);
 }
+
 .li-container a {
   padding: auto;
 }
+
 .li-container svg {
   display: none;
   transition: 300ms;
 }
+
 .li-container:hover svg {
   transition: 300ms;
   fill: black;
@@ -159,69 +176,17 @@
 body {
   background-color: black;
 }
+
 .main-container {
   background-color: rgb(0, 0, 0);
   width: 100vw;
-  height: 100vh;
-  display: flex;
-  padding: 50px;
-  padding-left: 350px;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-}
-.second-container {
-  max-width: 549px;
-  max-height: 324px;
-  background-color: red;
-  border: 1px solid white;
-}
-.question-second-container {
-  width: 100%;
   height: 100%;
-}
-
-.left-container {
   display: flex;
-  padding: 20px 0px;
-  max-width: 50%;
-  width: 40%;
-  height: 100vh;
+  padding-left: 300px;
 }
 
-/*-----Ubenef Form------*/
 
-.calcul-form {
-  max-height: 500px;
-  margin: 20px;
-  padding: 20px;
-  align-items: center;
-  text-align: center;
-  background-color: RGB(6, 193, 103);
-  color: white;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-weight: 700;
-  border-radius: 20px;
-}
 
-.form-input {
-  display: flex;
-  height: 30px;
-  padding: 10px;
-  text-align: center;
-  border-radius: 20px;
-}
-
-.result-container {
-  background-color: white;
-  border-radius: 20px;
-  padding: 20px;
-  margin: 10px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  color: #0e0d0d;
-}
 
 /*-------------------------Login/register---------------*/
 .create-account-main-container {
@@ -236,11 +201,13 @@ body {
 
   height: 85vh;
 }
+
 .account-form-container {
   display: flex;
   height: 80%;
   width: 80%;
 }
+
 .login-container {
   border-right: 1px solid white;
   height: 100%;
@@ -249,6 +216,7 @@ body {
   border-top-left-radius: 25px;
   padding-right: 50px;
 }
+
 .create-container {
   background-color: rgb(0, 0, 0);
   height: 100%;
@@ -268,11 +236,13 @@ body {
   font-family: uber;
   font-size: 35px;
 }
+
 .login-title-container span {
   color: #06c167;
   font-family: uber;
   font-size: 35px;
 }
+
 .create-title-container {
   display: flex;
   justify-content: center;
@@ -283,6 +253,7 @@ body {
   font-family: uber;
   font-size: 35px;
 }
+
 .create-title-container span {
   color: #06c167;
   font-family: uber;
@@ -292,11 +263,13 @@ body {
 .login-form-container {
   width: 100%;
 }
+
 .email-container {
   padding-left: 50px;
   padding-right: 50px;
   color: white;
 }
+
 .email-container span {
   font-family: uber;
   margin-left: 5px;
@@ -318,19 +291,23 @@ body {
   border-radius: 10px;
   letter-spacing: 1px;
 }
+
 .email-container input:hover {
   transform: scale(0.99);
   border: 2px solid #06c167;
 }
+
 .email-container input:focus {
   outline: none;
 }
+
 .confirm-password-container {
   padding-top: 20px;
   padding-left: 50px;
   padding-right: 50px;
   color: white;
 }
+
 .confirm-password-container span {
   font-family: uber;
   margin-left: 5px;
@@ -357,14 +334,17 @@ body {
   transform: scale(0.99);
   border: 2px solid #06c167;
 }
+
 .confirm-password-container input:focus {
   outline: none;
 }
+
 .connect-btn-container {
   padding-left: 50px;
   margin-top: 60px;
   padding-right: 20px;
 }
+
 .connect-btn-container input {
   border: 0;
   width: 145px;
@@ -378,22 +358,27 @@ body {
   transition: 300ms;
   background-color: #ffffff00;
 }
+
 .connect-btn-container input:hover {
   transition: 300ms;
   background-color: #06c167;
   color: black;
   transform: scale(0.99);
 }
+
 .connect-btn-container input:active {
   transform: scale(0.97);
 }
+
 .create-form-container {
   width: 100%;
 }
+
 .create-btn-container {
   padding-left: 50px;
   margin-top: 60px;
 }
+
 .create-btn-container input {
   border: 0;
   width: 170px;
@@ -407,20 +392,24 @@ body {
   transition: 300ms;
   background-color: #ffffff00;
 }
+
 .create-btn-container input:hover {
   background-color: #06c167;
   color: black;
   transform: scale(0.99);
 }
+
 .create-btn-container input:active {
   transform: scale(0.97);
 }
+
 .password-container {
   padding-top: 20px;
   padding-left: 50px;
   padding-right: 50px;
   color: white;
 }
+
 .password-container span {
   font-family: uber;
   margin-left: 5px;
@@ -447,22 +436,95 @@ body {
   transform: scale(0.99);
   border: 2px solid #06c167;
 }
+
 .password-container input:focus {
   outline: none;
 }
+
 .connect-container {
   display: flex;
 }
+
 .uber-connect input {
   width: 219px;
 }
+
 .uber-connect {
   padding-left: 60px;
 }
 
-/*-------------------------tools------------------------*/
+/*-------------------------tools display------------------------*/
+.nav-tool-container {
+  margin-top: auto;
+  height: 80vh;
+  border-radius: 0 10px 10px 0;
+}
+
 .tools-main-container {
   height: 100vh;
   background-color: black;
-  padding-left: 300px;
+}
+
+.tool-display-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #06c167;
+}
+
+.tool-container {
+  background-color: black;
+  margin-left: 40px;
+
+
+}
+
+/*--------------------------tools----------------------*/
+
+/*-----Ubenef Form------*/
+
+.calcul-form {
+  max-height: 500px;
+  width: auto;
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  background-color: RGB(6, 193, 103);
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 700;
+  border-radius: 20px;
+
+
+}
+
+.form-input {
+  display: flex;
+  height: 30px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.result-container {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #0e0d0d;
+}
+
+/*-------------------Weather(test)------------------*/
+
+.weather-container {
+  background-color: #0619c1;
+  display: none;
+
+
 }
