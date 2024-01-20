@@ -68,7 +68,6 @@
   height: 88vh;
   background-color: black;
   padding: 0 15px 0 10px;
-
 }
 
 .nav-logo-container {
@@ -184,9 +183,6 @@ body {
   display: flex;
   padding-left: 300px;
 }
-
-
-
 
 /*-------------------------Login/register---------------*/
 .create-account-main-container {
@@ -454,15 +450,11 @@ body {
 }
 
 /*-------------------------tools display------------------------*/
-.nav-tool-container {
-  margin-top: auto;
-  height: 80vh;
-  border-radius: 0 10px 10px 0;
-}
 
 .tools-main-container {
   height: 100vh;
   background-color: black;
+  padding-left: 300px;
 }
 
 .tool-display-container {
@@ -477,8 +469,6 @@ body {
 .tool-container {
   background-color: black;
   margin-left: 40px;
-
-
 }
 
 /*--------------------------tools----------------------*/
@@ -498,8 +488,6 @@ body {
     "Lucida Sans", Arial, sans-serif;
   font-weight: 700;
   border-radius: 20px;
-
-
 }
 
 .form-input {
@@ -525,6 +513,4 @@ body {
 .weather-container {
   background-color: #0619c1;
   display: none;
-
-
 }

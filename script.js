@@ -1,7 +1,7 @@
 //------------------------Variable----------------------------
 
 const toolsTab = document.querySelectorAll(".tool-tab");
-const tools = document.querySelectorAll(".tool-container")
+const tools = document.querySelectorAll(".tool-container");
 
 const ubenefContainer = document.querySelector("ubenef-container");
 
@@ -12,21 +12,22 @@ const calcul_btn = document.getElementById("calcul_btn");
 
 //------------------Global Function---------------------
 
-
-
 // ------------------Global Function---------------------
 
 //-------------------Tools Display---------------------
 toolsTab.forEach((tab, index) => {
-  tab.addEventListener('click', () => {
-    tools.forEach(tool => {
-      tool.classList.toggle("hide")
-    })
-
+  tab.addEventListener("click", () => {
+    tools.forEach((tool) => {
+      tool.classList.toggle("hide");
+    });
   });
 });
-
-
+tools_li.addEventListener("click", () => {
+  window.open("tools.html", "_self");
+});
+home_li.addEventListener("click", () => {
+  window.open("index.html", "_self");
+});
 
 // // --------------------- UBENEF CALCULATOR----------------------
 // let getBenefice = calcul_btn.addEventListener("click", (e) => {

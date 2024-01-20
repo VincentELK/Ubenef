@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en fr">
+  <head>
+    <!----------icons------------------------------------------------>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My tools</title>
+  </head>
 
-<head>
-  <!----------icons------------------------------------------------>
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-  <link rel="stylesheet" href="style.css" />
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My tools</title>
-</head>
-
-<body>
-  <div class="tools-main-container">
+  <body>
     <div class="nav-opened">
-      <div class="nav-container nav-tool-container">
+      <div class="nav-container">
         <div class="nav-logo-container">
           <div class="nav-logo-icon-container">
             <h1 class="nav-title"><span class="white-title">U</span>tools</h1>
@@ -25,80 +27,126 @@
 
         <nav class="menu-nav">
           <ul>
-            <div class="li-container">
+            <div class="li-container" id="home_li">
               <li>
                 <div class="home-btn">
                   <a href="index.html"> Home </a>
                 </div>
               </li>
             </div>
-            <div class="li-container tool-tab">
+
+            <div class="li-container" id="tools_li">
               <li>
-                <div class="">
-                  <a href="#">Ubenef</a>
+                <div class="tools-btn">
+                  <a href="tools.html">My tools </a>
                 </div>
               </li>
             </div>
-            <div class="li-container tool-tab">
+            <div class="li-container">
               <li>
-                <div class="">
-                  <a href="tools.html">Tool2</a>
+                <div class="contact-btn">
+                  <a href="#">Contact Us </a>
                 </div>
               </li>
             </div>
-            <div class="li-container tool-tab">
-              <li>
-                <div class="">
-                  <a href="#">Tool3 </a>
-                </div>
-              </li>
+
+            <div class="log-nav">
+              <div class="li-container">
+                <li>
+                  <div class="login-btn">
+                    <a href="createaccount.html">Login </a>
+                  </div>
+                </li>
+              </div>
+              <div class="li-container create-account">
+                <li>
+                  <div class="create-account-btn">
+                    <a href="createaccount.html">Create An Account </a>
+                  </div>
+                </li>
+              </div>
             </div>
           </ul>
         </nav>
       </div>
     </div>
-    <div class="tool-display-container">
-      <div class="ubenef-container tool-container">
-        <div class="tools-container">
-          <form action="" class="calcul-form">
-            <label for="race_price">Price of the fare</label>
-            <br />
-            <input class="form-input" type="number" id="race_price" min="0" name="price" step="0.10" />
-            <br />
-            <label for="gas_price">Gas Price</label>
-            <br />
-            <input class="form-input" type="number" id="gas_price" step="0.01" min="0" />
-            <br />
-            <label for="distance_traveled">Distance covered(km)</label>
-            <br />
-            <input class="form-input" type="number" id="distance_traveled" min="0" />
-            <br />
-            <label for="taxes">URSAFF/IRS/... amount(%)</label>
-            <br />
-            <input class="form-input" type="number" id="taxes" step="0.01" min="0" value="21.20" />
-            <br />
-            <label for="bonus">Bonus/Tips</label>
-            <br />
-            <input class="form-input" type="number" min="0" id="bonus" value="0" />
-            <br />
-            <input id="calcul_btn" type="submit" value="Calculate my profit" />
-            <br />
-            <p>Your profit</p>
-            <div class="result-container">
+    <div class="tools-main-container">
+      <div class="tool-display-container">
+        <div class="ubenef-container tool-container">
+          <div class="tools-container">
+            <form action="" class="calcul-form">
+              <label for="race_price">Price of the fare</label>
               <br />
-              <div id="benefice" class="result-input"></div>
-            </div>
-          </form>
+              <input
+                class="form-input"
+                type="number"
+                id="race_price"
+                min="0"
+                name="price"
+                step="0.10"
+              />
+              <br />
+              <label for="gas_price">Gas Price</label>
+              <br />
+              <input
+                class="form-input"
+                type="number"
+                id="gas_price"
+                step="0.01"
+                min="0"
+              />
+              <br />
+              <label for="distance_traveled">Distance covered(km)</label>
+              <br />
+              <input
+                class="form-input"
+                type="number"
+                id="distance_traveled"
+                min="0"
+              />
+              <br />
+              <label for="taxes">URSAFF/IRS/... amount(%)</label>
+              <br />
+              <input
+                class="form-input"
+                type="number"
+                id="taxes"
+                step="0.01"
+                min="0"
+                value="21.20"
+              />
+              <br />
+              <label for="bonus">Bonus/Tips</label>
+              <br />
+              <input
+                class="form-input"
+                type="number"
+                min="0"
+                id="bonus"
+                value="0"
+              />
+              <br />
+              <input
+                id="calcul_btn"
+                type="submit"
+                value="Calculate my profit"
+              />
+              <br />
+              <p>Your profit</p>
+              <div class="result-container">
+                <br />
+                <div id="benefice" class="result-input"></div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="weather-container tool-container">
+          <div class="weather-tool"></div>
         </div>
       </div>
-      <div class="weather-container tool-container">
-        <div class="weather-tool"></div>
-      </div>
+      <!------End of main-contaier------------>
     </div>
-    <!------End of main-contaier------------>
-  </div>
 
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
