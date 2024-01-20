@@ -17,10 +17,11 @@ const calcul_btn = document.getElementById("calcul_btn");
 // ------------------Global Function---------------------
 
 //-------------------Tools Display---------------------
-toolsTab.forEach((tab, index) => {
+
+toolsTab.forEach((tab) => {
   tab.addEventListener('click', () => {
-    tools.forEach(tool => {
-      tool.classList.toggle("hide")
+    tools.forEach((tool) => {
+      tool.classList.toggle('hide')
     })
 
   });
