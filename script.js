@@ -1,6 +1,7 @@
 //------------------------Variable----------------------------
 
 const toolsTab = document.querySelectorAll(".tool-tab");
+const tools = document.querySelectorAll(".tool-container")
 
 const ubenefContainer = document.querySelector("ubenef-container");
 
@@ -16,11 +17,15 @@ const calcul_btn = document.getElementById("calcul_btn");
 // ------------------Global Function---------------------
 
 //-------------------Tools Display---------------------
-toolsTab.forEach((tab) => {
+toolsTab.forEach((tab, index) => {
   tab.addEventListener('click', () => {
-    console.log("Tableau cliqué");
-  })
-})
+    tools.forEach(tool => {
+      tool.classList.toggle("hide")
+    })
+
+  });
+});
+
 
 
 // // --------------------- UBENEF CALCULATOR----------------------
