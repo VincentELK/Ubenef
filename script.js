@@ -18,14 +18,6 @@ const calcul_btn = document.getElementById("calcul_btn");
 
 //-------------------Tools Display---------------------
 
-toolsTab.forEach((tab) => {
-  tab.addEventListener('click', () => {
-    tools.forEach((tool) => {
-      tool.classList.toggle('hide')
-    })
-
-  });
-});
 
 
 
