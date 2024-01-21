@@ -17,6 +17,7 @@ ubenefTab.addEventListener('click', () => {
   uweatherTool.classList.add('hide')
   uweatherTool.classList.remove('show')
 })
+
 uweatherTab.addEventListener('click', () => {
   uweatherTool.classList.add('hide')
   uweatherTool.classList.toggle('show')
