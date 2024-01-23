@@ -39,19 +39,14 @@
 
         <div class="li-container" id="ubenef_tab">
           <li>
-            <div class="">
-              <a href="">Ubenef </a>
-            </div>
+            <a>Ubenef </a>
           </li>
         </div>
         <div class="li-container" id="weather_tab">
           <li>
-            <div class="">
-              <a href="">Uweather</a>
-            </div>
+            <a>Uweather</a>
           </li>
         </div>
-
         <div class="log-nav">
           <div class="li-container">
             <li>
@@ -71,7 +66,7 @@
       </ul>
     </nav>
   </div>
-
+  <!------------------END OF NAV BAR----------------->
   <div class="tools-main-container">
     <div class="ubenef-container">
       <form action="" class="calcul-form">
@@ -104,10 +99,25 @@
         </div>
       </form>
     </div>
+    <!----------END OF UBENEF FORM---------------------->
     <div class="weather-container">
-      <div class="weather-tool"></div>
+      <div class="weather-tool">
+        <div class="search">
+          <input type="text" placeholder="Enter city name" spellcheck="false">
+          <button><img src="0.Assets/uweather-icons/search.png" alt="search"></button>
+        </div>
+        <div class="error">
+          <p>Invalid or unregistered city name</p>
+        </div>
+        <div class="weather">
+          <img src="0.Assets/uweather-icons/rain.png" class="weather-icon" alt="weather-icon">
+          <h1 class="temp"></h1>
+          <h2 class="city"></h2>
+        </div>
+      </div>
     </div>
   </div>
+
   <!------End of main-container------------>
   <script src="./3.js-files/nav-tools-script.js"></script>
   <script src="./3.js-files/tools-script.js"></script>
