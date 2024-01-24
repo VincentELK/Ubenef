@@ -10,23 +10,23 @@ let tabsToolArray = [ubenefTab, uweatherTab];
 const ubenefContainer = document.querySelector("ubenef-container");
 const calcul_btn = document.getElementById("calcul_btn");
 //------------------------Uweather Variables---------------------//
+//------------------------Functions-------------------------------//
+function toolsDisplaySwitch(showTool, hideTool) {
+  showTool.classList.add('hide')
+  showTool.classList.toggle('show')
 
-//-------------------display Script-----------------------------//
+  hideTool.classList.add('hide')
+  hideTool.classList.remove('show')
+}
+// //-------------------display Script-----------------------------//
+
 ubenefTab.addEventListener('click', () => {
-  ubenefTool.classList.add('hide')
-  ubenefTool.classList.toggle('show')
-
-  uweatherTool.classList.add('hide')
-  uweatherTool.classList.remove('show')
+  toolsDisplaySwitch(ubenefTool, uweatherTool)
 })
-
 uweatherTab.addEventListener('click', () => {
-  uweatherTool.classList.add('hide')
-  uweatherTool.classList.toggle('show')
-
-  ubenefTool.classList.add('hide')
-  ubenefTool.classList.remove('show')
+  toolsDisplaySwitch(uweatherTool, ubenefTool)
 })
+
 //-------------------End of display Script-----------------------------//
 //-------------------Ubenef Script----------------------------//
 
@@ -96,7 +96,6 @@ async function checkWeather(city) {
   }
 
 }
-
 searchBtn.addEventListener('click', () => {
 
   checkWeather(searchBox.value);
