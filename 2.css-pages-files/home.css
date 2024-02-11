@@ -11,9 +11,22 @@
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
 }
+
+.home-title {
+  color: White;
+  align-self: center;
+}
+
 .deputy-home-container {
-  max-width: 549px;
-  max-height: 324px;
+  display: flex;
+
+
   background-color: red;
   border: 1px solid white;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
 }
